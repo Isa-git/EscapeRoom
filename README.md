@@ -6,12 +6,13 @@ To Clone Repository
 --------------------------------------------------------------------------------------------------------------------
 <ol>
 	<li> Download GitHub Desktop on https://desktop.github.com/ and install</li><br>
-	<li>Go under File</li>
+	<li>Go under File
 	<ol>
 		<li>choose Options: and Login with your GitHub Account there</li>
 		<li>choose Git: and enter your Name and Email adress</li>
 		<li>Save changes</li>
-	</ol><br>
+	</ol>
+	</li><br>
 	<li>Choose Clone a repository from Internet</li>
 	<ol>
 		<li>first choose your path to your local clone directory</li>
