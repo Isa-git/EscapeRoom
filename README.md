@@ -11,7 +11,7 @@ To Clone Repository
 		<li>choose Options: and Login with your GitHub Account there</li>
 		<li>choose Git: and enter your Name and Email adress</li>
 		<li>Save changes</li>
-	</ol>
+	</ol><br>
 	<li>Choose Clone a repository from Internet</li>
 	<ol>
 		<li>first choose your path to your local clone directory</li>
@@ -19,23 +19,39 @@ To Clone Repository
 		<li>otherwise go to repository "EscapeRoom", click the button Clone or Download and copy the link listed there<br>
       	 	    https://github.com/Isa-git/EscapeRoom.git</li>
 	</ol>
-</ol>
-
-1. Download GitHub Desktop on https://desktop.github.com/ and install<br><br>
-2. Go under File  
-    a. choose Options: and Login with your GitHub Account there<br>
-    b. choose Git: and enter your Name and Email adress<br>
-    c. Save changes<br><br>
-3. Choose Clone a repository from Internet
-    a. first choose your path to your local clone directory<br>
-    b. then if the Repository is listed on the right side you can just choose that one<br>
-    c. otherwise go to repository "EscapeRoom", click the button Clone or Download and copy the link listed there<br>
-       https://github.com/Isa-git/EscapeRoom.git<br>
-    d. and paste the Link into input field "Enter a repository URL..."<br><br>
+</ol><br>
 
     
  To Work with Unity
 --------------------------------------------------------------------------------------------------------------------   
+<ol>
+	<li>Open Project and edit Project Settings</li>
+	<ol>
+		<li>Edit - Project Settings</li>
+		<li>Under Editor Tab:</li>
+		<ol>
+			<li>Version Control - Mode: Visible Meta Files</li>
+			<li>Asset Serialization - Mode: Force Text</li>
+		</ol>
+	</ol><br>
+	<li>edit Gitignore so it doesn't show and push meta files</li>
+	<ol>
+		<li>open .gitignore File</li>
+		<li>delete / before the project fiels in the beginning - it should now be like:</li>
+		<ol>
+			...<br>
+			[Ll]ibrary/<br>
+			[Tt]emp/<br>
+			[Oo]bj/<br>
+			[Bb]uild/<br>
+			[Bb]uilds/<br>
+			[Ll]ogs/<br>
+			[Mm]emoryCaptures/<br>
+			...
+		</ol>
+	</ol>
+</ol>
+
 1. Open Project and edit Project Settings
     a. Edit - Project Settings<br>
     b. Under Editor Tab:<br>
