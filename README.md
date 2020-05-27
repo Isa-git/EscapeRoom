@@ -4,11 +4,11 @@ MTD2018: Usability and Interaction Design (mtd282)
 
 To Clone Repository
 --------------------------------------------------------------------------------------------------------------------
-1. Download GitHub Desktop on https://desktop.github.com/ and install
+1. Download GitHub Desktop on https://desktop.github.com/ and install<br>
 2. Go under File  
     a. choose Options: and Login with your GitHub Account there<br>
     b. choose Git: and enter your Name and Email adress<br>
-    c. Save changes
+    c. Save changes<br><br>
 3. Choose Clone a repository from Internet
     a. first choose your path to your local clone directory<br>
     b. then if the Repository is listed on the right side you can just choose that one<br>
@@ -23,7 +23,7 @@ To Clone Repository
     a. Edit - Project Settings<br>
     b. Under Editor Tab:<br>
 	1. Version Control - Mode: Visible Meta Files<br>
-	2. Asset Serialization - Mode: Force Text<br>
+	2. Asset Serialization - Mode: Force Text<br><br>
 2. edit Gitignore so it doesn't show and push meta files
     a. open .gitignore File<br>
     b. delete / before the project fiels in the beginning - it should now be like: <br>
@@ -36,7 +36,7 @@ To Clone Repository
 	[Ll]ogs/<br>
 	[Mm]emoryCaptures/<br>
 	...<br>
-    c. now the unnessessary meta files won't be pushed 
+    c. now the unnessessary meta files won't be pushed <br>
 3. from now on you can commit the project normally
     a. choose commit changes<br>
     b. go to history and right beside the new commmit that is shown, press icon to upload to the git repository<br>
