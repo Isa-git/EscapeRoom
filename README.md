@@ -64,7 +64,7 @@ To Clone Repository
 			<li>to pull from repository 
 				<ol>
 					<li>be sure to commit (without pushing) before pulling, if you made changes yourself (otherwise 					    your changes  will be gone)</li>
-					<li>after you pulled you can push your changes</li>
+					<li>after you pulled (first fetch then pull) you can push your changes</li>
 					<li>if two people change the same file and line there will be some conflicts. be sure to fix 						    them in github or afterwards in unity itself</li>
 				</ol>
 			</li>
