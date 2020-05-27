@@ -1,10 +1,10 @@
 # EscapeRoom
 MTD2018: Usability and Interaction Design (mtd282)
-
+<br><br>
 
 To Clone Repository
 --------------------------------------------------------------------------------------------------------------------
-1. Download GitHub Desktop on https://desktop.github.com/ and install<br>
+1. Download GitHub Desktop on https://desktop.github.com/ and install<br><br>
 2. Go under File  
     a. choose Options: and Login with your GitHub Account there<br>
     b. choose Git: and enter your Name and Email adress<br>
@@ -14,7 +14,7 @@ To Clone Repository
     b. then if the Repository is listed on the right side you can just choose that one<br>
     c. otherwise go to repository "EscapeRoom", click the button Clone or Download and copy the link listed there<br>
        https://github.com/Isa-git/EscapeRoom.git<br>
-    d. and paste the Link into input field "Enter a repository URL..."
+    d. and paste the Link into input field "Enter a repository URL..."<br><br>
 
     
  To Work with Unity
@@ -36,7 +36,7 @@ To Clone Repository
 	[Ll]ogs/<br>
 	[Mm]emoryCaptures/<br>
 	...<br>
-    c. now the unnessessary meta files won't be pushed <br>
+    c. now the unnessessary meta files won't be pushed <br><br>
 3. from now on you can commit the project normally
     a. choose commit changes<br>
     b. go to history and right beside the new commmit that is shown, press icon to upload to the git repository<br>
@@ -45,12 +45,12 @@ To Clone Repository
        - be sure to commit (without pushing) before pulling, if you made changes yourself (otherwise your changes will be gone)<br>
        - after you pulled you can push your changes<br>
        - if two people change the same file and line there will be some conflicts. be sure to fix them in github or afterwards in unity itself<br>
-    d. Version Control: you can always reset a former stage through the version control in your git-repository
+    d. Version Control: you can always reset a former stage through the version control in your git-repository<br><br>
 
 
 First Person Exploration Kit Documentation
 --------------------------------------------------------------------------------------------------------------------
-http://whilefun.com/fpedocs/FPEKitDocumentation.html
+http://whilefun.com/fpedocs/FPEKitDocumentation.html<br><br>
 
 
 Tutorial Link for GitHub-Unity-Projects
