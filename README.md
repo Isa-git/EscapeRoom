@@ -24,10 +24,10 @@ To Clone Repository
     b. Under Editor Tab:<br>
 	1. Version Control - Mode: Visible Meta Files<br>
 	2. Asset Serialization - Mode: Force Text<br><br>
-2. edit Gitignore so it doesn't show and push meta files
+2. edit Gitignore so it doesn't show and push meta files<br>
     a. open .gitignore File<br>
     b. delete / before the project fiels in the beginning - it should now be like: <br>
-	&nbsp;...<br>
+	&nbsp;&nbsp;...<br>
 	[Ll]ibrary/<br>
 	[Tt]emp/<br>
 	[Oo]bj/<br>
