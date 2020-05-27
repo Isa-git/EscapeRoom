@@ -27,7 +27,7 @@ To Clone Repository
 2. edit Gitignore so it doesn't show and push meta files
     a. open .gitignore File<br>
     b. delete / before the project fiels in the beginning - it should now be like: <br>
-	...<br>
+	&nbsp;...<br>
 	[Ll]ibrary/<br>
 	[Tt]emp/<br>
 	[Oo]bj/<br>
@@ -42,9 +42,9 @@ To Clone Repository
     b. go to history and right beside the new commmit that is shown, press icon to upload to the git repository<br>
        or choose Push origin after the branch on top<br>
     c. to pull from repository <br>
-       - be sure to commit (without pushing) before pulling, if you made changes yourself (otherwise your changes will be gone)<br>
-       - after you pulled you can push your changes<br>
-       - if two people change the same file and line there will be some conflicts. be sure to fix them in github or afterwards in unity itself<br>
+       1. be sure to commit (without pushing) before pulling, if you made changes yourself (otherwise your changes will be gone)<br>
+       2. after you pulled you can push your changes<br>
+       3. if two people change the same file and line there will be some conflicts. be sure to fix them in github or afterwards in unity itself<br>
     d. Version Control: you can always reset a former stage through the version control in your git-repository<br><br>
 
 
