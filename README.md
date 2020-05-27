@@ -10,9 +10,15 @@ To Clone Repository
 	<ol>
 		<li>choose Options: and Login with your GitHub Account there</li>
 		<li>choose Git: and enter your Name and Email adress</li>
-		<li><Save changes/li>
+		<li>Save changes</li>
 	</ol>
-	<li></li>
+	<li>Choose Clone a repository from Internet</li>
+	<ol>
+		<li>first choose your path to your local clone directory</li>
+		<li>then if the Repository is listed on the right side you can just choose that one</li>
+		<li>otherwise go to repository "EscapeRoom", click the button Clone or Download and copy the link listed there<br>
+      	 	    https://github.com/Isa-git/EscapeRoom.git</li>
+	</ol>
 </ol>
 
 1. Download GitHub Desktop on https://desktop.github.com/ and install<br><br>
