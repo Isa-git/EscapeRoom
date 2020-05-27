@@ -7,9 +7,9 @@ To Clone Repository
 <ol>
 	<li> Download GitHub Desktop on https://desktop.github.com/ and install</li><br>
 	<li>Go under File 
-		<ol>choose Options: and Login with your GitHub Account there</ol>
-		<ol>choose Git: and enter your Name and Email adress</ol>
-		<ol><Save changes/ol>
+		<li>choose Options: and Login with your GitHub Account there</li>
+		<li>choose Git: and enter your Name and Email adress</li>
+		<li><Save changes/li>
 	</li>
 	<li></li>
 </ol>
