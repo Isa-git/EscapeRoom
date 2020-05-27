@@ -75,7 +75,7 @@ To Clone Repository
 
 First Person Exploration Kit Documentation
 --------------------------------------------------------------------------------------------------------------------
-http://whilefun.com/fpedocs/FPEKitDocumentation.html<br><br>
+http://whilefun.com/fpedocs/FPEKitDocumentation.html<br><br><br>
 
 
 Tutorial Link for GitHub-Unity-Projects
