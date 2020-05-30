@@ -73,6 +73,30 @@ To Clone Repository
 	</li>
 </ol><br>
 
+
+Hints and Usable Parts (Items)
+--------------------------------------------------------------------------------------------------------------------
+<ol>
+	<li>Schlüssel zur Schatzkiste: Pick König Hint auf Schachbrett --> Schlüssel im Kochtopf --> aber Achtung im Kleinen ist ein falscher Schlüssel, der nichts sperrt (weißer König) im großen der richtige Schlüssel der sperrt (schwarzer Schlüssel) --> den Tipp Zettel kann man sonst noch irgendwo anders verstecken --> oder das Aufnahmegerät am Esstisch oder der Radio obern Bett in der Kommode spielt den tipp Soundmäßig ab - dann is es ned so straight vorward (aufgenommen is es schon)</li>
+	<li>WC: Schatzkiste --> Schalter für das Bild Oberhalb vom Desk mit dem verschlossenen Schlüssel</li>
+	<li>hinter Bild: Kombinationsschloss für Türe zum Blood Room +  Schlüssel zum Schreibtischfach</li>
+	<li>Im Schribtischfach: 4 Fotos --> Alle beziehen sich auf einen Rohstoff und darunter steht eine Bewertung des Fotografen wie es ihm gefallen hat --> Muss nun so gereiht werden, von bestes Erlebnis zu schlechtestem --> Wiese, Gold, Ödland, Erz,  - 4, 7, 2, 3</li>
+	<li>Kombination für Kombinationsschloss hinter Bild --> Türe zum Blood Room geht auf (vorerstes Ende --> geht aber auch schon davor)</li>
+	<li>Für die nächste Kombination (letzte), muss man 4 Würfel finden --> 2 sind beim Spielbrett schon dabei, die anderen zwei weiß ich noch nicht wo wir die verstecken. Lösung sind immer die Zahlen die oben stehen (man kann sie also nicht aufheben). wir brauchen also noch 3 hints --> würde das mit den büchern machen (weiß aber noch nicht wie).</li>
+	<li>Die Kombination sperrt einerseits die Fake Türe auf aber würde auch dei Wand im Blood Room aufschwingen lassen (das weiß man aber nicht).</li>
+	<li>Spieler wird versuchen die Haupttüre aufzusperren geht auf und Wand ist dahinter</li>
+	<li>Er sucht weiter, findet eine verschlssene Truhe, in der befindet sich noch mal ein Zahlenschloss (würde ich evtl. in den Blood Room geben oder Kasten???</li>
+	<li>Schlüssel ist hinter des Blood Room Tisches (einziger Hint ist das umgedrehte Buch.</li>
+	<li>Wenn der Schlüssel gefunden ist, wird die Truhe oder Box aufgesperrt, es kann der Code eingegeben werden und voila draußen sind wir</li>
+</ol>
+
+Ich hab die Reihenfolge etwas umgestellt - falls es ned passt könn mas gern wieder umdrehen. Darüber hinaus sind auch relativ viele mögliche Rätsel drinnen, bei denen man Gegenstände zählen muss. Weil wir so viele ssachen drinnen haben. Glaubst du ist das noch zu komplex?
+<br>
+Ich hab auch die neuen Polaroid noch gemacht - 4 im Schreibtisch und 1 im Tisch im Blood Raum. Das nächste was ma dann machen müssen sind die ersten 2 Schritte Programmieren.
+
+<br><br><br>
+
+
 First Person Exploration Kit Documentation
 --------------------------------------------------------------------------------------------------------------------
 http://whilefun.com/fpedocs/FPEKitDocumentation.html<br><br><br>
