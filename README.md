@@ -2,39 +2,39 @@
 MTD2018: Usability and Interaction Design (mtd282)
 <br><br><br>
 
-Erneuerungen
+To-Dos
 --------------------------------------------------------------------------------------------------------------------
-Großteils ist es glaub ich für die Abagabe fertig. Ein Paar Punkte fehlen noch:
+GroÃŸteils ist es glaub ich fÃ¼r die Abagabe fertig. Ein Paar Punkte fehlen noch:
 <ol>
-	<li>Was noch fehlt ist hauptsächlich der Lock am verschlossenen Tisch rechts. Kannst du dann auch noch wo verstecken (evtl. beim Radio oberhalb vom Bett? oder gleich beim Switch im Locked Locker? </li>
-	<li>Was ich nicht hinbekommen hab, was aber cool wäre, wenn die Türen und Schlösser nur mit dem richtigen Schlüssel in der Hand aufgehen, weil sonst bringt sich der Hint aufn schwarzen König nix wenns aufgeht wenn man beide Schlüssel in der Tasche hat XD. Hätte es umgestellt aber hat trotzdem auch im inventory gesperrt. Evtl. könntest du dir das anschauen.</li>
-	<li>Was auch noch ist. Am Herd glitchen jetzt die Schachfiguren und Schlüssel und machen dadurch Geräusche. Evtl. bekommst es du hin, dass man das Glitchen wegbekommt (sry ich habs noch mal verschoben und seitdem ist es so T.T. Notfalls sonst einfach dei Geräusche von den Pots und den Gegenständen nehmen, dann hört mans ned. </li>
-	<li>De Polaroids sind schon fürs Inventory vorbereitet und das Schloss auf den richtigen Code eingestellt hinter dem Bild.</li>
+	<li>Was noch fehlt ist hauptsÃ¤chlich der Lock am verschlossenen Tisch rechts. Kannst du dann auch noch wo verstecken (evtl. beim Radio oberhalb vom Bett? oder gleich beim Switch im Locked Locker? </li>
+	<li>Was ich nicht hinbekommen hab, was aber cool wÃ¤re, wenn die TÃ¼ren und SchlÃ¶sser nur mit dem richtigen SchlÃ¼ssel in der Hand aufgehen, weil sonst bringt sich der Hint aufn schwarzen KÃ¶nig nix wenns aufgeht wenn man beide SchlÃ¼ssel in der Tasche hat XD. HÃ¤tte es umgestellt aber hat trotzdem auch im inventory gesperrt. Evtl. kÃ¶nntest du dir das anschauen.</li>
+	<li>Was auch noch ist. Am Herd glitchen jetzt die Schachfiguren und SchlÃ¼ssel und machen dadurch GerÃ¤usche. Evtl. bekommst es du hin, dass man das Glitchen wegbekommt (sry ich habs noch mal verschoben und seitdem ist es so T.T. Notfalls sonst einfach dei GerÃ¤usche von den Pots und den GegenstÃ¤nden nehmen, dann hÃ¶rt mans ned. </li>
+	<li>De Polaroids sind schon fÃ¼rs Inventory vorbereitet und das Schloss auf den richtigen Code eingestellt hinter dem Bild.</li>
 </ol>
 Du kannst gerne ausprobieren ob du alles findest ansonsten folgt jetzt die Anleitung zum Rest XD. 
 <br><br><br>
 
 
-Rätselablauf bisher
+RÃ¤tselablauf bisher
 --------------------------------------------------------------------------------------------------------------------
 <ul>
-	<li>Hinweis: Karten oberhalb vom Bett. Pick und Herz, hinten ist ein Schachmuster abgebildet als erster Hint (sagt aber noch nicht welcher Schlüssel der richtige ist.</li>
-	<li>Hinweis: Im Drawer neben dem Kleiderkasten. Linke Schublade. Die bekannte Notiz mit dem Schwarzen König</li>
-	<li>Hinweis: Schachbrett hinter dem Herd weißt auf den richtigen Platz hin. In den Töpfen findet man jeweils einen König und einen Schlüssel. Nur ein Schlüssel sperrt.</li>
-	<li>Es gibt insg. 3 Schlösser im Raum (Tür, Schreibtisch, Badezimmer) --> Ich glaub da kommt man auch mit Ausprobieren hin</li>
-	<li>Im Badezimmer im Locker ist dann der Schalter, der das Bild aufschwingen lässt. Dahinter ist ein Nummernpad und ein Schlüssel</li>
-	<li>Der Schlüssel sperrt die linke Schublade, darin befindet sich ein Polaroid --> Hinweis auf die Nummern für das Nummernpad</li>
+	<li>Hinweis: Karten oberhalb vom Bett. Pick und Herz, hinten ist ein Schachmuster abgebildet als erster Hint (sagt aber noch nicht welcher SchlÃ¼ssel der richtige ist.</li>
+	<li>Hinweis: Im Drawer neben dem Kleiderkasten. Linke Schublade. Die bekannte Notiz mit dem Schwarzen KÃ¶nig</li>
+	<li>Hinweis: Schachbrett hinter dem Herd weiÃŸt auf den richtigen Platz hin. In den TÃ¶pfen findet man jeweils einen KÃ¶nig und einen SchlÃ¼ssel. Nur ein SchlÃ¼ssel sperrt.</li>
+	<li>Es gibt insg. 3 SchlÃ¶sser im Raum (TÃ¼r, Schreibtisch, Badezimmer) --> Ich glaub da kommt man auch mit Ausprobieren hin</li>
+	<li>Im Badezimmer im Locker ist dann der Schalter, der das Bild aufschwingen lÃ¤sst. Dahinter ist ein Nummernpad und ein SchlÃ¼ssel</li>
+	<li>Der SchlÃ¼ssel sperrt die linke Schublade, darin befindet sich ein Polaroid --> Hinweis auf die Nummern fÃ¼r das Nummernpad</li>
 	<li>Insg. sind 4 Polaroids verteilt: Rechte Schublade vom Drawer, rechter Locker, linke Schublade vom verschlossenen Tisch, rechte Schublade vom verschlossenen Tisch</li>
-	<li>Die Polaroids weißen immer auf einen Rohstoff hin, vom Spielbrett und der Text wertet was bestes zum schlechtesten Trip war. Um den Code herauszufinden muss man also erst Mal die Polaroids reihen und dann die Spielfelder zählen die es am Spielbrett gibt. Daraus bekommt man den Code zum 1ten Nummernpad und voila die Türe zum Blood Room geht auf.</li>
-	<li>Es gibt zu allen möglichen Objekten Notes die zusätzliche leichte Hinweise geben, damit falls man ansteht, dort nachgelesen werden kann</li>
+	<li>Die Polaroids weiÃŸen immer auf einen Rohstoff hin, vom Spielbrett und der Text wertet was bestes zum schlechtesten Trip war. Um den Code herauszufinden muss man also erst Mal die Polaroids reihen und dann die Spielfelder zÃ¤hlen die es am Spielbrett gibt. Daraus bekommt man den Code zum 1ten Nummernpad und voila die TÃ¼re zum Blood Room geht auf.</li>
+	<li>Es gibt zu allen mÃ¶glichen Objekten Notes die zusÃ¤tzliche leichte Hinweise geben, damit falls man ansteht, dort nachgelesen werden kann</li>
 </ul>
 
-Den zweiten Teil im Blood Room müssen wir uns noch genauer überlegen vom Ablauf her. Genügend Versteckmöglichkeiten gibt es ja. Ich dachte mir auch dass wir evtl die Schwarze König Karte als Key Card für die letzte Sliding Türe hernehmen könnten.
+Den zweiten Teil im Blood Room mÃ¼ssen wir uns noch genauer Ã¼berlegen vom Ablauf her. GenÃ¼gend VersteckmÃ¶glichkeiten gibt es ja. Ich dachte mir auch dass wir evtl die Schwarze KÃ¶nig Karte als Key Card fÃ¼r die letzte Sliding TÃ¼re hernehmen kÃ¶nnten.
 
-Was auf alle Fälle vom Blodroom aus gemacht werden muss:
+Was auf alle FÃ¤lle vom Blodroom aus gemacht werden muss:
 <ol>
-	<li>1 Rätsel für das Nummernpad bei der Türe (das Wären die Bücher wahrsch)</li>
-	<li>1 Rätsel für die versteckte Sliding Türe (der Key hinter den Büchern der einen Gegenstand aufsperrt, darin ist ein Kartenleser, der dann wiederum die letzte Türe aufgehen lässt)</li>
+	<li>1 RÃ¤tsel fÃ¼r das Nummernpad bei der TÃ¼re (das WÃ¤ren die BÃ¼cher wahrsch)</li>
+	<li>1 RÃ¤tsel fÃ¼r die versteckte Sliding TÃ¼re (der Key hinter den BÃ¼chern der einen Gegenstand aufsperrt, darin ist ein Kartenleser, der dann wiederum die letzte TÃ¼re aufgehen lÃ¤sst)</li>
 </ol>
 
 So in die Richtung?
@@ -116,22 +116,22 @@ To Clone Repository
 Hints and Usable Parts (Items)
 --------------------------------------------------------------------------------------------------------------------
 <ol>
-	<li>Schlüssel zur Schatzkiste: Pick König Hint auf Schachbrett --> Schlüssel im Kochtopf --> aber Achtung im Kleinen ist ein falscher Schlüssel, der nichts sperrt (weißer König) im großen der richtige Schlüssel der sperrt (schwarzer Schlüssel) --> den Tipp Zettel kann man sonst noch irgendwo anders verstecken --> oder das Aufnahmegerät am Esstisch oder der Radio obern Bett in der Kommode spielt den tipp Soundmäßig ab - dann is es ned so straight vorward (aufgenommen is es schon)</li>
-	<li>WC: Schatzkiste --> Schalter für das Bild Oberhalb vom Desk mit dem verschlossenen Schlüssel</li>
-	<li>hinter Bild: Kombinationsschloss für Türe zum Blood Room +  Schlüssel zum Schreibtischfach</li>
-	<li>Im Schribtischfach: 4 Fotos --> Alle beziehen sich auf einen Rohstoff und darunter steht eine Bewertung des Fotografen wie es ihm gefallen hat --> Muss nun so gereiht werden, von bestes Erlebnis zu schlechtestem --> Wiese, Gold, Ödland, Erz,  - 4, 7, 2, 3</li>
-	<li>Kombination für Kombinationsschloss hinter Bild --> Türe zum Blood Room geht auf (vorerstes Ende --> geht aber auch schon davor)</li>
-	<li>Für die nächste Kombination (letzte), muss man 4 Würfel finden --> 2 sind beim Spielbrett schon dabei, die anderen zwei weiß ich noch nicht wo wir die verstecken. Lösung sind immer die Zahlen die oben stehen (man kann sie also nicht aufheben). wir brauchen also noch 3 hints --> würde das mit den büchern machen (weiß aber noch nicht wie).</li>
-	<li>Die Kombination sperrt einerseits die Fake Türe auf aber würde auch dei Wand im Blood Room aufschwingen lassen (das weiß man aber nicht).</li>
-	<li>Spieler wird versuchen die Haupttüre aufzusperren geht auf und Wand ist dahinter</li>
-	<li>Er sucht weiter, findet eine verschlssene Truhe, in der befindet sich noch mal ein Zahlenschloss (würde ich evtl. in den Blood Room geben oder Kasten???</li>
-	<li>Schlüssel ist hinter des Blood Room Tisches (einziger Hint ist das umgedrehte Buch.</li>
-	<li>Wenn der Schlüssel gefunden ist, wird die Truhe oder Box aufgesperrt, es kann der Code eingegeben werden und voila draußen sind wir</li>
+	<li>SchlÃ¼ssel zur Schatzkiste: Pick KÃ¶nig Hint auf Schachbrett --> SchlÃ¼ssel im Kochtopf --> aber Achtung im Kleinen ist ein falscher SchlÃ¼ssel, der nichts sperrt (weiÃŸer KÃ¶nig) im groÃŸen der richtige SchlÃ¼ssel der sperrt (schwarzer SchlÃ¼ssel) --> den Tipp Zettel kann man sonst noch irgendwo anders verstecken --> oder das AufnahmegerÃ¤t am Esstisch oder der Radio obern Bett in der Kommode spielt den tipp SoundmÃ¤ÃŸig ab - dann is es ned so straight vorward (aufgenommen is es schon)</li>
+	<li>WC: Schatzkiste --> Schalter fÃ¼r das Bild Oberhalb vom Desk mit dem verschlossenen SchlÃ¼ssel</li>
+	<li>hinter Bild: Kombinationsschloss fÃ¼r TÃ¼re zum Blood Room +  SchlÃ¼ssel zum Schreibtischfach</li>
+	<li>Im Schribtischfach: 4 Fotos --> Alle beziehen sich auf einen Rohstoff und darunter steht eine Bewertung des Fotografen wie es ihm gefallen hat --> Muss nun so gereiht werden, von bestes Erlebnis zu schlechtestem --> Wiese, Gold, Ã–dland, Erz,  - 4, 7, 2, 3</li>
+	<li>Kombination fÃ¼r Kombinationsschloss hinter Bild --> TÃ¼re zum Blood Room geht auf (vorerstes Ende --> geht aber auch schon davor)</li>
+	<li>FÃ¼r die nÃ¤chste Kombination (letzte), muss man 4 WÃ¼rfel finden --> 2 sind beim Spielbrett schon dabei, die anderen zwei weiÃŸ ich noch nicht wo wir die verstecken. LÃ¶sung sind immer die Zahlen die oben stehen (man kann sie also nicht aufheben). wir brauchen also noch 3 hints --> wÃ¼rde das mit den bÃ¼chern machen (weiÃŸ aber noch nicht wie).</li>
+	<li>Die Kombination sperrt einerseits die Fake TÃ¼re auf aber wÃ¼rde auch dei Wand im Blood Room aufschwingen lassen (das weiÃŸ man aber nicht).</li>
+	<li>Spieler wird versuchen die HaupttÃ¼re aufzusperren geht auf und Wand ist dahinter</li>
+	<li>Er sucht weiter, findet eine verschlssene Truhe, in der befindet sich noch mal ein Zahlenschloss (wÃ¼rde ich evtl. in den Blood Room geben oder Kasten???</li>
+	<li>SchlÃ¼ssel ist hinter des Blood Room Tisches (einziger Hint ist das umgedrehte Buch.</li>
+	<li>Wenn der SchlÃ¼ssel gefunden ist, wird die Truhe oder Box aufgesperrt, es kann der Code eingegeben werden und voila drauÃŸen sind wir</li>
 </ol>
 
-Ich hab die Reihenfolge etwas umgestellt - falls es ned passt könn mas gern wieder umdrehen. Darüber hinaus sind auch relativ viele mögliche Rätsel drinnen, bei denen man Gegenstände zählen muss. Weil wir so viele ssachen drinnen haben. Glaubst du ist das noch zu komplex?
+Ich hab die Reihenfolge etwas umgestellt - falls es ned passt kÃ¶nn mas gern wieder umdrehen. DarÃ¼ber hinaus sind auch relativ viele mÃ¶gliche RÃ¤tsel drinnen, bei denen man GegenstÃ¤nde zÃ¤hlen muss. Weil wir so viele ssachen drinnen haben. Glaubst du ist das noch zu komplex?
 <br>
-Ich hab auch die neuen Polaroid noch gemacht - 4 im Schreibtisch und 1 im Tisch im Blood Raum. Das nächste was ma dann machen müssen sind die ersten 2 Schritte Programmieren.
+Ich hab auch die neuen Polaroid noch gemacht - 4 im Schreibtisch und 1 im Tisch im Blood Raum. Das nÃ¤chste was ma dann machen mÃ¼ssen sind die ersten 2 Schritte Programmieren.
 
 <br><br><br>
 
