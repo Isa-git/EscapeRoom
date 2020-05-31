@@ -25,7 +25,12 @@ namespace Whilefun.FPEKit {
             PUZZLEBALL = 2,
             APPLE = 3,
             COLLECTIBLE = 4,
-            SIMPLEKEY = 5
+            SIMPLEKEY = 5,
+            BLACKKINGNOTE = 6,
+            KINGOFSPADES = 7,
+            KINGOFHEARTS = 8,
+            BLACKKINGCHESS = 9,
+            WHITEKINGCHESS = 10,
 
         };
 

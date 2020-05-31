@@ -46,6 +46,12 @@ namespace Whilefun.FPEKit
                 inventoryItemsLookup.Add(FPEInventoryManagerScript.eInventoryItems.COLLECTIBLE, "demoCollectible");
                 inventoryItemsLookup.Add(FPEInventoryManagerScript.eInventoryItems.SIMPLEKEY, "demoSimpleKey");
 
+                inventoryItemsLookup.Add(FPEInventoryManagerScript.eInventoryItems.BLACKKINGNOTE, "BlackKingNote");
+                inventoryItemsLookup.Add(FPEInventoryManagerScript.eInventoryItems.KINGOFSPADES, "KingofSpades");
+                inventoryItemsLookup.Add(FPEInventoryManagerScript.eInventoryItems.KINGOFHEARTS, "KingofHearts");
+                inventoryItemsLookup.Add(FPEInventoryManagerScript.eInventoryItems.BLACKKINGCHESS, "BKing");
+                inventoryItemsLookup.Add(FPEInventoryManagerScript.eInventoryItems.WHITEKINGCHESS, "WKING");
+
                 // 
                 // To add a new item, simply add a new dictionary entry for that eInventoryItems type and 
                 // string, where string is the name of the prefab inside the InventoryItems Resources sub-folder
