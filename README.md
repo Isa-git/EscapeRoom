@@ -9,8 +9,8 @@ Großteils ist es glaub ich für die Abagabe fertig. Ein Paar Punkte fehlen noch
 	<li>Was noch fehlt ist hauptsächlich der Lock am verschlossenen Tisch rechts. Kannst du dann auch noch wo verstecken (evtl. beim Radio oberhalb vom Bett? oder gleich beim Switch im Locked Locker? </li>
 	<li>Was ich nicht hinbekommen hab, was aber cool wäre, wenn die Türen und Schlösser nur mit dem richtigen Schlüssel in der Hand aufgehen, weil sonst bringt sich der Hint aufn schwarzen König nix wenns aufgeht wenn man beide Schlüssel in der Tasche hat XD. Hätte es umgestellt aber hat trotzdem auch im inventory gesperrt. Evtl. könntest du dir das anschauen.</li>
 	<li>Was auch noch ist. Am Herd glitchen jetzt die Schachfiguren und Schlüssel und machen dadurch Geräusche. Evtl. bekommst es du hin, dass man das Glitchen wegbekommt (sry ich habs noch mal verschoben und seitdem ist es so T.T. Notfalls sonst einfach dei Geräusche von den Pots und den Gegenständen nehmen, dann hört mans ned. </li>
-	<li>De Polaroids sind schon fürs Inventory vorbereitet und das Schloss auf den richtigen Code eingestellt hinter dem Bild.</li>
 </ol>
+Die Polaroids sind schon fürs Inventory vorbereitet und das Schloss auf den richtigen Code eingestellt hinter dem Bild.<br>
 Du kannst gerne ausprobieren ob du alles findest ansonsten folgt jetzt die Anleitung zum Rest XD. 
 <br><br><br>
 
