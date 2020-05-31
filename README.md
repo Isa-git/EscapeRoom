@@ -25,7 +25,7 @@ Rätselablauf bisher
 	<li>Im Badezimmer im Locker ist dann der Schalter, der das Bild aufschwingen lässt. Dahinter ist ein Nummernpad und ein Schlüssel</li>
 	<li>Der Schlüssel sperrt die linke Schublade, darin befindet sich ein Polaroid --> Hinweis auf die Nummern für das Nummernpad</li>
 	<li>Insg. sind 4 Polaroids verteilt: Rechte Schublade vom Drawer, rechter Locker, linke Schublade vom verschlossenen Tisch, rechte Schublade vom verschlossenen Tisch</li>
-	<li>Die Polaroids weißen immer auf einen Rohstoff hin, vom Spielbrett und der Text wertet was bestes zum schlechtesten Trip war. Um den Code herauszufinden muss man also erst Mal die Polaroids reihen und dann die Spielfelder zählen die es am Spielbrett gibt. Daraus bekommt man den Code zum 1ten Nummernpad und voila die Türe zum Blood Room geht auf.</li>
+	<li>Die Polaroids weisen immer auf einen Rohstoff hin, vom Spielbrett und der Text wertet was bestes zum schlechtesten Trip war. Um den Code herauszufinden muss man also erst Mal die Polaroids reihen und dann die Spielfelder zählen die es am Spielbrett gibt. Daraus bekommt man den Code zum 1ten Nummernpad und voila die Türe zum Blood Room geht auf.</li>
 	<li>Es gibt zu allen möglichen Objekten Notes die zusätzliche leichte Hinweise geben, damit falls man ansteht, dort nachgelesen werden kann</li>
 </ul>
 
