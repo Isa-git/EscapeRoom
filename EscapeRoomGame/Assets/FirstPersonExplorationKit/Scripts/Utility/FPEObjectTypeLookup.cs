@@ -51,6 +51,14 @@ namespace Whilefun.FPEKit
                 inventoryItemsLookup.Add(FPEInventoryManagerScript.eInventoryItems.KINGOFHEARTS, "KingofHearts");
                 inventoryItemsLookup.Add(FPEInventoryManagerScript.eInventoryItems.BLACKKINGCHESS, "BKing");
                 inventoryItemsLookup.Add(FPEInventoryManagerScript.eInventoryItems.WHITEKINGCHESS, "WKING");
+                inventoryItemsLookup.Add(FPEInventoryManagerScript.eInventoryItems.LOCKERKEY, "demoSimpleKey");
+                inventoryItemsLookup.Add(FPEInventoryManagerScript.eInventoryItems.DRAWERKEY, "demoSimpleKey");
+
+                inventoryItemsLookup.Add(FPEInventoryManagerScript.eInventoryItems.POLAROIDBADLANDS, "BlackKingNote");
+                inventoryItemsLookup.Add(FPEInventoryManagerScript.eInventoryItems.POLAROIDGOLD, "BlackKingNote");
+                inventoryItemsLookup.Add(FPEInventoryManagerScript.eInventoryItems.POLAROIDGREENFIELD, "BlackKingNote");
+                inventoryItemsLookup.Add(FPEInventoryManagerScript.eInventoryItems.POLAROIDORE, "BlackKingNote");
+
 
                 // 
                 // To add a new item, simply add a new dictionary entry for that eInventoryItems type and 

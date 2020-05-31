@@ -2,6 +2,45 @@
 MTD2018: Usability and Interaction Design (mtd282)
 <br><br><br>
 
+Erneuerungen
+--------------------------------------------------------------------------------------------------------------------
+Großteils ist es glaub ich für die Abagabe fertig. Ein Paar Punkte fehlen noch:
+<ol>
+	<li>Was noch fehlt ist hauptsächlich der Lock am verschlossenen Tisch rechts. Kannst du dann auch noch wo verstecken (evtl. beim Radio oberhalb vom Bett? oder gleich beim Switch im Locked Locker? </li>
+	<li>Was ich nicht hinbekommen hab, was aber cool wäre, wenn die Türen und Schlösser nur mit dem richtigen Schlüssel in der Hand aufgehen, weil sonst bringt sich der Hint aufn schwarzen König nix wenns aufgeht wenn man beide Schlüssel in der Tasche hat XD. Hätte es umgestellt aber hat trotzdem auch im inventory gesperrt. Evtl. könntest du dir das anschauen.</li>
+	<li>Was auch noch ist. Am Herd glitchen jetzt die Schachfiguren und Schlüssel und machen dadurch Geräusche. Evtl. bekommst es du hin, dass man das Glitchen wegbekommt (sry ich habs noch mal verschoben und seitdem ist es so T.T. Notfalls sonst einfach dei Geräusche von den Pots und den Gegenständen nehmen, dann hört mans ned. </li>
+	<li>De Polaroids sind schon fürs Inventory vorbereitet und das Schloss auf den richtigen Code eingestellt hinter dem Bild.</li>
+</ol>
+Du kannst gerne ausprobieren ob du alles findest ansonsten folgt jetzt die Anleitung zum Rest XD. 
+<br><br><br>
+
+
+Rätselablauf bisher
+--------------------------------------------------------------------------------------------------------------------
+<ul>
+	<li>Hinweis: Karten oberhalb vom Bett. Pick und Herz, hinten ist ein Schachmuster abgebildet als erster Hint (sagt aber noch nicht welcher Schlüssel der richtige ist.</li>
+	<li>Hinweis: Im Drawer neben dem Kleiderkasten. Linke Schublade. Die bekannte Notiz mit dem Schwarzen König</li>
+	<li>Hinweis: Schachbrett hinter dem Herd weißt auf den richtigen Platz hin. In den Töpfen findet man jeweils einen König und einen Schlüssel. Nur ein Schlüssel sperrt.</li>
+	<li>Es gibt insg. 3 Schlösser im Raum (Tür, Schreibtisch, Badezimmer) --> Ich glaub da kommt man auch mit Ausprobieren hin</li>
+	<li>Im Badezimmer im Locker ist dann der Schalter, der das Bild aufschwingen lässt. Dahinter ist ein Nummernpad und ein Schlüssel</li>
+	<li>Der Schlüssel sperrt die linke Schublade, darin befindet sich ein Polaroid --> Hinweis auf die Nummern für das Nummernpad</li>
+	<li>Insg. sind 4 Polaroids verteilt: Rechte Schublade vom Drawer, rechter Locker, linke Schublade vom verschlossenen Tisch, rechte Schublade vom verschlossenen Tisch</li>
+	<li>Die Polaroids weißen immer auf einen Rohstoff hin, vom Spielbrett und der Text wertet was bestes zum schlechtesten Trip war. Um den Code herauszufinden muss man also erst Mal die Polaroids reihen und dann die Spielfelder zählen die es am Spielbrett gibt. Daraus bekommt man den Code zum 1ten Nummernpad und voila die Türe zum Blood Room geht auf.</li>
+	<li>Es gibt zu allen möglichen Objekten Notes die zusätzliche leichte Hinweise geben, damit falls man ansteht, dort nachgelesen werden kann</li>
+</ul>
+
+Den zweiten Teil im Blood Room müssen wir uns noch genauer überlegen vom Ablauf her. Genügend Versteckmöglichkeiten gibt es ja. Ich dachte mir auch dass wir evtl die Schwarze König Karte als Key Card für die letzte Sliding Türe hernehmen könnten.
+
+Was auf alle Fälle vom Blodroom aus gemacht werden muss:
+<ol>
+	<li>1 Rätsel für das Nummernpad bei der Türe (das Wären die Bücher wahrsch)</li>
+	<li>1 Rätsel für die versteckte Sliding Türe (der Key hinter den Büchern der einen Gegenstand aufsperrt, darin ist ein Kartenleser, der dann wiederum die letzte Türe aufgehen lässt)</li>
+</ol>
+
+So in die Richtung?
+<br><br><br>
+
+
 To Clone Repository
 --------------------------------------------------------------------------------------------------------------------
 <ol>

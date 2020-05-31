@@ -171,7 +171,6 @@ GameObject:
   - component: {fileID: 4011575050209533291}
   - component: {fileID: 4011575050204505803}
   - component: {fileID: 4011575050209765447}
-  - component: {fileID: 3908051099328932553}
   m_Layer: 0
   m_Name: demoFlatPaper
   m_TagString: Untagged
@@ -365,23 +364,6 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 0
---- !u!114 &3908051099328932553
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4011575050215814517}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: b6f0a8572f20c4e4e84efe2dc16b6b63, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  diaryTitle: Examination Rotation
-  diaryAudio: {fileID: 8300000, guid: a18daa9b0e1507242aeaf9deded18c4f, type: 3}
-  automaticPlayback: 0
-  addEntryToInventory: 1
-  showDiaryTitle: 1
 --- !u!1 &4011575050215814519
 GameObject:
   m_ObjectHideFlags: 0

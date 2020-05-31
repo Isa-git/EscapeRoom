@@ -31,6 +31,13 @@ namespace Whilefun.FPEKit {
             KINGOFHEARTS = 8,
             BLACKKINGCHESS = 9,
             WHITEKINGCHESS = 10,
+            LOCKERKEY = 11,
+            DRAWERKEY = 12,
+
+            POLAROIDBADLANDS = 13,
+            POLAROIDGOLD = 14,
+            POLAROIDGREENFIELD = 15,
+            POLAROIDORE = 16,
 
         };
 
