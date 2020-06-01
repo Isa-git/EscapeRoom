@@ -1458,7 +1458,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 95319141}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -13.27, y: 0.99, z: -2.8188453}
+  m_LocalPosition: {x: -13.27, y: 2.31, z: -2.8188453}
   m_LocalScale: {x: 0.092088364, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1356738688}
@@ -5804,6 +5804,12 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 275463069}
   m_PrefabAsset: {fileID: 0}
+--- !u!4 &599769467 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 400000, guid: 2c297530f0e12574385ba57cd0be29c4,
+    type: 3}
+  m_PrefabInstance: {fileID: 1963049633}
+  m_PrefabAsset: {fileID: 0}
 --- !u!4 &600852022 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 4578241568717674, guid: d4c13e0a31c558d44a8f388a79193a00,
@@ -6022,6 +6028,18 @@ PrefabInstance:
       propertyPath: swingOpenTimeInSeconds
       value: 0.01
       objectReference: {fileID: 0}
+    - target: {fileID: 478454659797585479, guid: 034edb49276200a4d9c18f031bc1a15b,
+        type: 3}
+      propertyPath: doorOpenSounds
+      value: 
+      objectReference: {fileID: 11400000, guid: bf736f9f3964084469712871b1de328b,
+        type: 2}
+    - target: {fileID: 478454659797585479, guid: 034edb49276200a4d9c18f031bc1a15b,
+        type: 3}
+      propertyPath: doorCloseSounds
+      value: 
+      objectReference: {fileID: 11400000, guid: f78be2db4bc32c34ea2a7c92d1b8b9eb,
+        type: 2}
     - target: {fileID: 478454659797585482, guid: 034edb49276200a4d9c18f031bc1a15b,
         type: 3}
       propertyPath: m_Name
@@ -9314,13 +9332,13 @@ MonoBehaviour:
   startInternallyLocked: 0
   requiredKeyType: 5
   startExternallyLocked: 0
-  startOpened: 0
+  startOpened: 1
   stopIfDoorHitsSomething: 0
-  openDoorString: Open
+  openDoorString: Hm suspicious there might be something behind it
   closeDoorString: Close
   openDoorFailureString: It's locked.
   internalUnlockString: It's unlocked now.
-  externalLockString: I have to disable the security system first.
+  externalLockString: I think I can move it now
   playSounds: 1
   doorOpenSounds: {fileID: 0}
   doorCloseSounds: {fileID: 0}
@@ -10995,6 +11013,98 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 1681427355}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &1033203035
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1033203036}
+  - component: {fileID: 1033203037}
+  m_Layer: 0
+  m_Name: Point Light (2)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1033203036
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1033203035}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -1.699, y: 0.374, z: 1.743}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1356738688}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!108 &1033203037
+Light:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1033203035}
+  m_Enabled: 1
+  serializedVersion: 10
+  m_Type: 2
+  m_Shape: 0
+  m_Color: {r: 0.9811321, g: 0.93410695, b: 0.754361, a: 1}
+  m_Intensity: 1
+  m_Range: 10
+  m_SpotAngle: 30
+  m_InnerSpotAngle: 21.80208
+  m_CookieSize: 10
+  m_Shadows:
+    m_Type: 0
+    m_Resolution: -1
+    m_CustomResolution: -1
+    m_Strength: 1
+    m_Bias: 0.05
+    m_NormalBias: 0.4
+    m_NearPlane: 0.2
+    m_CullingMatrixOverride:
+      e00: 1
+      e01: 0
+      e02: 0
+      e03: 0
+      e10: 0
+      e11: 1
+      e12: 0
+      e13: 0
+      e20: 0
+      e21: 0
+      e22: 1
+      e23: 0
+      e30: 0
+      e31: 0
+      e32: 0
+      e33: 1
+    m_UseCullingMatrixOverride: 0
+  m_Cookie: {fileID: 0}
+  m_DrawHalo: 0
+  m_Flare: {fileID: 0}
+  m_RenderMode: 0
+  m_CullingMask:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_RenderingLayerMask: 1
+  m_Lightmapping: 4
+  m_LightShadowCasterMode: 0
+  m_AreaSize: {x: 1, y: 1}
+  m_BounceIntensity: 1
+  m_ColorTemperature: 6570
+  m_UseColorTemperature: 0
+  m_BoundingSphereOverride: {x: 0, y: 0, z: 0, w: 0}
+  m_UseBoundingSphereOverride: 0
+  m_ShadowRadius: 0
+  m_ShadowAngle: 0
 --- !u!4 &1033727407 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 4859011858622590, guid: 393103ee2798fb34e9ea8dbd780cc4bc,
@@ -11980,7 +12090,7 @@ MonoBehaviour:
   audioLogText: <DEFAULT PICKUP SOUND AUDIO LOG TEXT>
   soundPlaybackBehaviour: 0
   soundToPlayOnInteract: {fileID: 0}
-  interactionString: A workin desk.
+  interactionString: 'A workin desk. '
   canInteractWithWhileHoldingObject: 1
 --- !u!65 &1143016061
 BoxCollider:
@@ -12690,6 +12800,124 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 202603853}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &1204343716 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1594281654760376, guid: eef8306c54f201a4e8cd536d25207e32,
+    type: 3}
+  m_PrefabInstance: {fileID: 1440319422}
+  m_PrefabAsset: {fileID: 0}
+--- !u!82 &1204343722
+AudioSource:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1204343716}
+  m_Enabled: 1
+  serializedVersion: 4
+  OutputAudioMixerGroup: {fileID: 0}
+  m_audioClip: {fileID: 0}
+  m_PlayOnAwake: 1
+  m_Volume: 1
+  m_Pitch: 1
+  Loop: 0
+  Mute: 0
+  Spatialize: 0
+  SpatializePostEffects: 0
+  Priority: 128
+  DopplerLevel: 1
+  MinDistance: 1
+  MaxDistance: 500
+  Pan2D: 0
+  rolloffMode: 0
+  BypassEffects: 0
+  BypassListenerEffects: 0
+  BypassReverbZones: 0
+  rolloffCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 1
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  panLevelCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  spreadCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  reverbZoneMixCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+--- !u!54 &1204343723
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1204343716}
+  serializedVersion: 2
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_UseGravity: 1
+  m_IsKinematic: 0
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 0
 --- !u!1001 &1205599642
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -13410,7 +13638,7 @@ MonoBehaviour:
   audioLogText: <DEFAULT PICKUP SOUND AUDIO LOG TEXT>
   soundPlaybackBehaviour: 0
   soundToPlayOnInteract: {fileID: 0}
-  interactionString: oh yes... bread
+  interactionString: 'oh the bread looks stale '
   putBackString: <DEFAULT PUT BACK STRING>
   postExaminationInteractionString: 
   autoGeneratePutBackObject: 0
@@ -13559,28 +13787,6 @@ MeshCollider:
   m_Convex: 1
   m_CookingOptions: 30
   m_Mesh: {fileID: 4300000, guid: fb29f754bc1b7684fa268773c86e15d1, type: 3}
---- !u!114 &1262491568
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1262491559}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 970f98161fba6de469e711ccd9c6d99a, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  highlightOnMouseOver: 1
-  highlightColor: {r: 0.57, g: 0.57, b: 1, a: 1}
-  interactionDistance: 2
-  playSecondarySoundOnInteract: 0
-  showWithText: 1
-  audioLogText: <DEFAULT PICKUP SOUND AUDIO LOG TEXT>
-  soundPlaybackBehaviour: 0
-  soundToPlayOnInteract: {fileID: 0}
-  interactionString: An old lumb of bred.
-  canInteractWithWhileHoldingObject: 1
 --- !u!4 &1264203728 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 4559605514125194, guid: dc899da57486f4c4fa53c3bb800568d6,
@@ -13737,6 +13943,12 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 3c21bb32e8e806e4fa9258820dfebadf, type: 3}
+--- !u!4 &1281006695 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 475434, guid: 7d5fac0efe938994aba24a88ba9c3057,
+    type: 3}
+  m_PrefabInstance: {fileID: 1804634115}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &1281603785
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -14881,6 +15093,9 @@ Transform:
   m_Children:
   - {fileID: 1655808730}
   - {fileID: 95319143}
+  - {fileID: 1033203036}
+  - {fileID: 599769467}
+  - {fileID: 1281006695}
   m_Father: {fileID: 0}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -15537,7 +15752,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1429683800}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -5.341395, y: 2.9115827, z: -7.7288446}
+  m_LocalPosition: {x: -5.341395, y: 3.35, z: -7.7288446}
   m_LocalScale: {x: 20, y: 0.2, z: 20}
   m_Children: []
   m_Father: {fileID: 1890557829}
@@ -17170,6 +17385,11 @@ PrefabInstance:
       propertyPath: inventoryItemType
       value: 12
       objectReference: {fileID: 0}
+    - target: {fileID: 5068912214020964621, guid: b2b050cd00c1c154ba4b96600ee0777c,
+        type: 3}
+      propertyPath: interactionString
+      value: Oh look at this. A key.
+      objectReference: {fileID: 0}
     - target: {fileID: 5126580566877908729, guid: b2b050cd00c1c154ba4b96600ee0777c,
         type: 3}
       propertyPath: m_Enabled
@@ -18093,7 +18313,7 @@ Light:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1655808728}
-  m_Enabled: 1
+  m_Enabled: 0
   serializedVersion: 10
   m_Type: 2
   m_Shape: 0
@@ -19923,6 +20143,75 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 46fbe438016f1ef42a93a3237ba16514, type: 3}
+--- !u!1001 &1804634115
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 1356738688}
+    m_Modifications:
+    - target: {fileID: 135264, guid: 7d5fac0efe938994aba24a88ba9c3057, type: 3}
+      propertyPath: m_Name
+      value: LampDesk
+      objectReference: {fileID: 0}
+    - target: {fileID: 475434, guid: 7d5fac0efe938994aba24a88ba9c3057, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 1.089601
+      objectReference: {fileID: 0}
+    - target: {fileID: 475434, guid: 7d5fac0efe938994aba24a88ba9c3057, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.19058251
+      objectReference: {fileID: 0}
+    - target: {fileID: 475434, guid: 7d5fac0efe938994aba24a88ba9c3057, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 1.7511549
+      objectReference: {fileID: 0}
+    - target: {fileID: 475434, guid: 7d5fac0efe938994aba24a88ba9c3057, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 475434, guid: 7d5fac0efe938994aba24a88ba9c3057, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 475434, guid: 7d5fac0efe938994aba24a88ba9c3057, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 475434, guid: 7d5fac0efe938994aba24a88ba9c3057, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 475434, guid: 7d5fac0efe938994aba24a88ba9c3057, type: 3}
+      propertyPath: m_RootOrder
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 475434, guid: 7d5fac0efe938994aba24a88ba9c3057, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 475434, guid: 7d5fac0efe938994aba24a88ba9c3057, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 180
+      objectReference: {fileID: 0}
+    - target: {fileID: 475434, guid: 7d5fac0efe938994aba24a88ba9c3057, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 475434, guid: 7d5fac0efe938994aba24a88ba9c3057, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 2.5191
+      objectReference: {fileID: 0}
+    - target: {fileID: 475434, guid: 7d5fac0efe938994aba24a88ba9c3057, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 2.5191
+      objectReference: {fileID: 0}
+    - target: {fileID: 475434, guid: 7d5fac0efe938994aba24a88ba9c3057, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 2.5191
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 7d5fac0efe938994aba24a88ba9c3057, type: 3}
 --- !u!4 &1806986566 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 400000, guid: abe0f3cb09164c048b3cba749efab044,
@@ -20551,6 +20840,18 @@ PrefabInstance:
       propertyPath: startInternallyLocked
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 478454659797585479, guid: 034edb49276200a4d9c18f031bc1a15b,
+        type: 3}
+      propertyPath: doorOpenSounds
+      value: 
+      objectReference: {fileID: 11400000, guid: bf736f9f3964084469712871b1de328b,
+        type: 2}
+    - target: {fileID: 478454659797585479, guid: 034edb49276200a4d9c18f031bc1a15b,
+        type: 3}
+      propertyPath: doorCloseSounds
+      value: 
+      objectReference: {fileID: 11400000, guid: f78be2db4bc32c34ea2a7c92d1b8b9eb,
+        type: 2}
     - target: {fileID: 478454659797585482, guid: 034edb49276200a4d9c18f031bc1a15b,
         type: 3}
       propertyPath: m_Name
@@ -21953,7 +22254,7 @@ MonoBehaviour:
   audioLogText: <DEFAULT PICKUP SOUND AUDIO LOG TEXT>
   soundPlaybackBehaviour: 0
   soundToPlayOnInteract: {fileID: 0}
-  interactionString: Open
+  interactionString: Close
   canInteractWithWhileHoldingObject: 1
   requireInventoryItem: 0
   requiredItemType: 3
@@ -22007,6 +22308,95 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 6335392437975773619}
   m_PrefabAsset: {fileID: 0}
+--- !u!1001 &1963049633
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 1356738688}
+    m_Modifications:
+    - target: {fileID: 100000, guid: 2c297530f0e12574385ba57cd0be29c4, type: 3}
+      propertyPath: m_Name
+      value: wallLampoverDoor
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 2c297530f0e12574385ba57cd0be29c4, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -12.857399
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 2c297530f0e12574385ba57cd0be29c4, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 1.4195826
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 2c297530f0e12574385ba57cd0be29c4, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -8.67
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 2c297530f0e12574385ba57cd0be29c4, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 2c297530f0e12574385ba57cd0be29c4, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 2c297530f0e12574385ba57cd0be29c4, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 2c297530f0e12574385ba57cd0be29c4, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 2c297530f0e12574385ba57cd0be29c4, type: 3}
+      propertyPath: m_RootOrder
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 2c297530f0e12574385ba57cd0be29c4, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 2c297530f0e12574385ba57cd0be29c4, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 180
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 2c297530f0e12574385ba57cd0be29c4, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 2c297530f0e12574385ba57cd0be29c4, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 1.8178785
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 2c297530f0e12574385ba57cd0be29c4, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 1.8178785
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 2c297530f0e12574385ba57cd0be29c4, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 1.8178785
+      objectReference: {fileID: 0}
+    - target: {fileID: 400002, guid: 2c297530f0e12574385ba57cd0be29c4, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -0.034
+      objectReference: {fileID: 0}
+    - target: {fileID: 10800000, guid: 2c297530f0e12574385ba57cd0be29c4, type: 3}
+      propertyPath: m_Color.r
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 10800000, guid: 2c297530f0e12574385ba57cd0be29c4, type: 3}
+      propertyPath: m_Color.g
+      value: 0.9674844
+      objectReference: {fileID: 0}
+    - target: {fileID: 10800000, guid: 2c297530f0e12574385ba57cd0be29c4, type: 3}
+      propertyPath: m_Color.b
+      value: 0.7688679
+      objectReference: {fileID: 0}
+    - target: {fileID: 10800000, guid: 2c297530f0e12574385ba57cd0be29c4, type: 3}
+      propertyPath: m_Shadows.m_Type
+      value: 2
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 2c297530f0e12574385ba57cd0be29c4, type: 3}
 --- !u!1 &1969447565
 GameObject:
   m_ObjectHideFlags: 0
@@ -24481,14 +24871,14 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   startInternallyLocked: 0
   requiredKeyType: 5
-  startExternallyLocked: 1
+  startExternallyLocked: 0
   startOpened: 0
   stopIfDrawerHitsSomething: 1
   openDrawerString: Open
   closeDrawerString: Close
   openDrawerFailureString: It's locked.
   internalUnlockString: It's unlocked now.
-  externalLockString: I have to find the secret button to open this.
+  externalLockString: 
   playSounds: 1
   drawerOpenSounds: {fileID: 11400000, guid: 3d0dc73eebdd66149a7aa2d023b0897b, type: 2}
   drawerCloseSounds: {fileID: 11400000, guid: 55b099bfa06d95e4585dc59dce45aa6d, type: 2}
@@ -25173,19 +25563,6 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 1, y: 1, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
---- !u!65 &2835559558881132700
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2862824178634252220}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Size: {x: 1, y: 1, z: 1}
-  m_Center: {x: 0, y: 0, z: 0}
 --- !u!65 &2835576617022626318
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -25408,20 +25785,6 @@ Transform:
   m_Father: {fileID: 2859362267336829278}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 90.00001}
---- !u!4 &2859401592001991328
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2862824178634252220}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0.077, z: 0}
-  m_LocalScale: {x: 0.37405488, y: 0.10589125, z: 0.37405488}
-  m_Children: []
-  m_Father: {fileID: 2860115735999368448}
-  m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!4 &2859434016875121778
 Transform:
   m_ObjectHideFlags: 0
@@ -25801,8 +26164,7 @@ Transform:
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: -0.061, z: 0.233}
   m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children:
-  - {fileID: 2859401592001991328}
+  m_Children: []
   m_Father: {fileID: 2859442355097442270}
   m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -26286,25 +26648,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!1 &2862824178634252220
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 2859401592001991328}
-  - component: {fileID: 2866648794440030816}
-  - component: {fileID: 2835559558881132700}
-  - component: {fileID: 2876527857721500668}
-  m_Layer: 12
-  m_Name: TopSecretSpyStuff
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
 --- !u!1 &2862827151738293626
 GameObject:
   m_ObjectHideFlags: 0
@@ -26754,14 +27097,6 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2862745975032215262}
   m_Mesh: {fileID: 4300012, guid: a7c2a63d8ba55694ea547094b98ffbf5, type: 3}
---- !u!33 &2866648794440030816
-MeshFilter:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2862824178634252220}
-  m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
 --- !u!33 &2866752734754001982
 MeshFilter:
   m_ObjectHideFlags: 0
@@ -26893,45 +27228,6 @@ MeshRenderer:
   m_ScaleInLightmap: 1
   m_ReceiveGI: 1
   m_PreserveUVs: 0
-  m_IgnoreNormalsForChartDetection: 0
-  m_ImportantGI: 0
-  m_StitchLightmapSeams: 1
-  m_SelectedEditorRenderState: 3
-  m_MinimumChartSize: 4
-  m_AutoUVMaxDistance: 0.5
-  m_AutoUVMaxAngle: 89
-  m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
-  m_SortingOrder: 0
---- !u!23 &2876527857721500668
-MeshRenderer:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2862824178634252220}
-  m_Enabled: 1
-  m_CastShadows: 1
-  m_ReceiveShadows: 1
-  m_DynamicOccludee: 1
-  m_MotionVectors: 1
-  m_LightProbeUsage: 1
-  m_ReflectionProbeUsage: 1
-  m_RayTracingMode: 2
-  m_RenderingLayerMask: 1
-  m_RendererPriority: 0
-  m_Materials:
-  - {fileID: 2100000, guid: 3a743c42950258a489c2195ad1a19552, type: 2}
-  m_StaticBatchInfo:
-    firstSubMesh: 0
-    subMeshCount: 0
-  m_StaticBatchRoot: {fileID: 0}
-  m_ProbeAnchor: {fileID: 0}
-  m_LightProbeVolumeOverride: {fileID: 0}
-  m_ScaleInLightmap: 1
-  m_ReceiveGI: 1
-  m_PreserveUVs: 1
   m_IgnoreNormalsForChartDetection: 0
   m_ImportantGI: 0
   m_StitchLightmapSeams: 1
@@ -27641,6 +27937,29 @@ PrefabInstance:
       propertyPath: requiredKeyType
       value: 11
       objectReference: {fileID: 0}
+    - target: {fileID: 478454659797585479, guid: 034edb49276200a4d9c18f031bc1a15b,
+        type: 3}
+      propertyPath: openDoorFailureString
+      value: It's locked. hm maybe I can find something to open it
+      objectReference: {fileID: 0}
+    - target: {fileID: 478454659797585479, guid: 034edb49276200a4d9c18f031bc1a15b,
+        type: 3}
+      propertyPath: doorOpenSounds
+      value: 
+      objectReference: {fileID: 11400000, guid: bf736f9f3964084469712871b1de328b,
+        type: 2}
+    - target: {fileID: 478454659797585479, guid: 034edb49276200a4d9c18f031bc1a15b,
+        type: 3}
+      propertyPath: doorCloseSounds
+      value: 
+      objectReference: {fileID: 11400000, guid: f78be2db4bc32c34ea2a7c92d1b8b9eb,
+        type: 2}
+    - target: {fileID: 478454659797585479, guid: 034edb49276200a4d9c18f031bc1a15b,
+        type: 3}
+      propertyPath: doorUnlockSounds
+      value: 
+      objectReference: {fileID: 11400000, guid: fb8a1f562b4e5d34e8fe17d818efc744,
+        type: 2}
     - target: {fileID: 478454659797585482, guid: 034edb49276200a4d9c18f031bc1a15b,
         type: 3}
       propertyPath: m_Name
