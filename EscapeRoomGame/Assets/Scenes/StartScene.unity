@@ -380,6 +380,81 @@ Transform:
   m_Father: {fileID: 2859608859614503074}
   m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1001 &26866083
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 2121068601}
+    m_Modifications:
+    - target: {fileID: 1500024321721894, guid: 3c21bb32e8e806e4fa9258820dfebadf, type: 3}
+      propertyPath: m_Name
+      value: Gold5 (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4136844178125394, guid: 3c21bb32e8e806e4fa9258820dfebadf, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0.002
+      objectReference: {fileID: 0}
+    - target: {fileID: 4136844178125394, guid: 3c21bb32e8e806e4fa9258820dfebadf, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4136844178125394, guid: 3c21bb32e8e806e4fa9258820dfebadf, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -0.526
+      objectReference: {fileID: 0}
+    - target: {fileID: 4136844178125394, guid: 3c21bb32e8e806e4fa9258820dfebadf, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4136844178125394, guid: 3c21bb32e8e806e4fa9258820dfebadf, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4136844178125394, guid: 3c21bb32e8e806e4fa9258820dfebadf, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4136844178125394, guid: 3c21bb32e8e806e4fa9258820dfebadf, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4136844178125394, guid: 3c21bb32e8e806e4fa9258820dfebadf, type: 3}
+      propertyPath: m_RootOrder
+      value: 47
+      objectReference: {fileID: 0}
+    - target: {fileID: 4136844178125394, guid: 3c21bb32e8e806e4fa9258820dfebadf, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4136844178125394, guid: 3c21bb32e8e806e4fa9258820dfebadf, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4136844178125394, guid: 3c21bb32e8e806e4fa9258820dfebadf, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4136844178125394, guid: 3c21bb32e8e806e4fa9258820dfebadf, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 0.2
+      objectReference: {fileID: 0}
+    - target: {fileID: 4136844178125394, guid: 3c21bb32e8e806e4fa9258820dfebadf, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 0.2
+      objectReference: {fileID: 0}
+    - target: {fileID: 4136844178125394, guid: 3c21bb32e8e806e4fa9258820dfebadf, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 0.2
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 3c21bb32e8e806e4fa9258820dfebadf, type: 3}
+--- !u!4 &26866084 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 4136844178125394, guid: 3c21bb32e8e806e4fa9258820dfebadf,
+    type: 3}
+  m_PrefabInstance: {fileID: 26866083}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &34199705
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -941,6 +1016,47 @@ Transform:
   m_Father: {fileID: 913784825}
   m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: -90.00001, y: 0, z: 0}
+--- !u!1 &57704682 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1388657164994780, guid: dcf682d7e73d63e4db2f3cea8bdac239,
+    type: 3}
+  m_PrefabInstance: {fileID: 376422661}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &57704683
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 57704682}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 970f98161fba6de469e711ccd9c6d99a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  highlightOnMouseOver: 1
+  highlightColor: {r: 0.57, g: 0.57, b: 1, a: 1}
+  interactionDistance: 2
+  playSecondarySoundOnInteract: 0
+  showWithText: 0
+  audioLogText: <DEFAULT PICKUP SOUND AUDIO LOG TEXT>
+  soundPlaybackBehaviour: 0
+  soundToPlayOnInteract: {fileID: 0}
+  interactionString: Grass Field
+  canInteractWithWhileHoldingObject: 1
+--- !u!65 &57704684
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 57704682}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1, y: 1, z: 1}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!4 &60132312 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 4112414398726650, guid: 466b178cd356e914db5d739249226df9,
@@ -1138,7 +1254,6 @@ GameObject:
   - component: {fileID: 70779141}
   - component: {fileID: 70779144}
   - component: {fileID: 70779143}
-  - component: {fileID: 70779142}
   m_Layer: 0
   m_Name: sitting (3)
   m_TagString: Untagged
@@ -1162,22 +1277,6 @@ Transform:
   m_Father: {fileID: 1882313934}
   m_RootOrder: 9
   m_LocalEulerAnglesHint: {x: 0, y: -90, z: 0}
---- !u!114 &70779142
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 70779140}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 969ac1b935ccd904f8c932fc12d8a6d8, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  noteTitle: Player Docks
-  noteBody: Dockable objects can be used to create simple things like chairs, or
-    complex things like arcade machines. I imagine there are a million other things
-    to do with these, too.
 --- !u!114 &70779143
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1600,6 +1699,47 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 2006924600}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &107531285 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1411991481385686, guid: d4c13e0a31c558d44a8f388a79193a00,
+    type: 3}
+  m_PrefabInstance: {fileID: 613225536}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &107531286
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 107531285}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 970f98161fba6de469e711ccd9c6d99a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  highlightOnMouseOver: 1
+  highlightColor: {r: 0.57, g: 0.57, b: 1, a: 1}
+  interactionDistance: 2
+  playSecondarySoundOnInteract: 0
+  showWithText: 0
+  audioLogText: <DEFAULT PICKUP SOUND AUDIO LOG TEXT>
+  soundPlaybackBehaviour: 0
+  soundToPlayOnInteract: {fileID: 0}
+  interactionString: Clay Field
+  canInteractWithWhileHoldingObject: 1
+--- !u!65 &107531287
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 107531285}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1, y: 1, z: 1}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &107724851
 GameObject:
   m_ObjectHideFlags: 0
@@ -1939,6 +2079,47 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: dc899da57486f4c4fa53c3bb800568d6, type: 3}
+--- !u!1 &127136163 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1513751033591328, guid: acb86a1738de1364cad1d7ac4f60f2ed,
+    type: 3}
+  m_PrefabInstance: {fileID: 1462908916}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &127136164
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 127136163}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 970f98161fba6de469e711ccd9c6d99a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  highlightOnMouseOver: 1
+  highlightColor: {r: 0.57, g: 0.57, b: 1, a: 1}
+  interactionDistance: 2
+  playSecondarySoundOnInteract: 0
+  showWithText: 0
+  audioLogText: <DEFAULT PICKUP SOUND AUDIO LOG TEXT>
+  soundPlaybackBehaviour: 0
+  soundToPlayOnInteract: {fileID: 0}
+  interactionString: Dessert Field
+  canInteractWithWhileHoldingObject: 1
+--- !u!65 &127136165
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 127136163}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1, y: 1, z: 1}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &128860351 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 1109342852123754, guid: e187b316755304b8396d3c14fa53dde7,
@@ -2519,6 +2700,47 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: a8ea9c6e7d3b55045b87988140b087db, type: 3}
+--- !u!1 &199151524 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1513751033591328, guid: acb86a1738de1364cad1d7ac4f60f2ed,
+    type: 3}
+  m_PrefabInstance: {fileID: 1728609974}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &199151525
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 199151524}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 970f98161fba6de469e711ccd9c6d99a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  highlightOnMouseOver: 1
+  highlightColor: {r: 0.57, g: 0.57, b: 1, a: 1}
+  interactionDistance: 2
+  playSecondarySoundOnInteract: 0
+  showWithText: 0
+  audioLogText: <DEFAULT PICKUP SOUND AUDIO LOG TEXT>
+  soundPlaybackBehaviour: 0
+  soundToPlayOnInteract: {fileID: 0}
+  interactionString: Dessert Field
+  canInteractWithWhileHoldingObject: 1
+--- !u!65 &199151526
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 199151524}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1, y: 1, z: 1}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1001 &202603853
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -2971,6 +3193,16 @@ PrefabInstance:
       propertyPath: doorsToControl.Array.data[0]
       value: 
       objectReference: {fileID: 1476615043}
+    - target: {fileID: 114461119873336666, guid: ce5515de98640f448b398bb4ce2ffb1f,
+        type: 3}
+      propertyPath: doorCode.Array.data[1]
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 114461119873336666, guid: ce5515de98640f448b398bb4ce2ffb1f,
+        type: 3}
+      propertyPath: doorCode.Array.data[2]
+      value: 9
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: ce5515de98640f448b398bb4ce2ffb1f, type: 3}
 --- !u!4 &259864318 stripped
@@ -3328,81 +3560,6 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 400000, guid: 54ebdfa7e7eee87448b28a289525dce5,
     type: 3}
   m_PrefabInstance: {fileID: 712617166}
-  m_PrefabAsset: {fileID: 0}
---- !u!1001 &297749142
-PrefabInstance:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    m_TransformParent: {fileID: 2121068601}
-    m_Modifications:
-    - target: {fileID: 1411991481385686, guid: d4c13e0a31c558d44a8f388a79193a00, type: 3}
-      propertyPath: m_Name
-      value: Clay3
-      objectReference: {fileID: 0}
-    - target: {fileID: 4578241568717674, guid: d4c13e0a31c558d44a8f388a79193a00, type: 3}
-      propertyPath: m_LocalPosition.x
-      value: 0.005
-      objectReference: {fileID: 0}
-    - target: {fileID: 4578241568717674, guid: d4c13e0a31c558d44a8f388a79193a00, type: 3}
-      propertyPath: m_LocalPosition.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4578241568717674, guid: d4c13e0a31c558d44a8f388a79193a00, type: 3}
-      propertyPath: m_LocalPosition.z
-      value: -0.536
-      objectReference: {fileID: 0}
-    - target: {fileID: 4578241568717674, guid: d4c13e0a31c558d44a8f388a79193a00, type: 3}
-      propertyPath: m_LocalRotation.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4578241568717674, guid: d4c13e0a31c558d44a8f388a79193a00, type: 3}
-      propertyPath: m_LocalRotation.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4578241568717674, guid: d4c13e0a31c558d44a8f388a79193a00, type: 3}
-      propertyPath: m_LocalRotation.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4578241568717674, guid: d4c13e0a31c558d44a8f388a79193a00, type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 4578241568717674, guid: d4c13e0a31c558d44a8f388a79193a00, type: 3}
-      propertyPath: m_RootOrder
-      value: 47
-      objectReference: {fileID: 0}
-    - target: {fileID: 4578241568717674, guid: d4c13e0a31c558d44a8f388a79193a00, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4578241568717674, guid: d4c13e0a31c558d44a8f388a79193a00, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4578241568717674, guid: d4c13e0a31c558d44a8f388a79193a00, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4578241568717674, guid: d4c13e0a31c558d44a8f388a79193a00, type: 3}
-      propertyPath: m_LocalScale.x
-      value: 0.2
-      objectReference: {fileID: 0}
-    - target: {fileID: 4578241568717674, guid: d4c13e0a31c558d44a8f388a79193a00, type: 3}
-      propertyPath: m_LocalScale.y
-      value: 0.2
-      objectReference: {fileID: 0}
-    - target: {fileID: 4578241568717674, guid: d4c13e0a31c558d44a8f388a79193a00, type: 3}
-      propertyPath: m_LocalScale.z
-      value: 0.2
-      objectReference: {fileID: 0}
-    m_RemovedComponents: []
-  m_SourcePrefab: {fileID: 100100000, guid: d4c13e0a31c558d44a8f388a79193a00, type: 3}
---- !u!4 &297749143 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: 4578241568717674, guid: d4c13e0a31c558d44a8f388a79193a00,
-    type: 3}
-  m_PrefabInstance: {fileID: 297749142}
   m_PrefabAsset: {fileID: 0}
 --- !u!4 &300358141 stripped
 Transform:
@@ -4080,7 +4237,8 @@ PrefabInstance:
       propertyPath: m_LocalScale.z
       value: 1.2800001
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 114621448344278178, guid: df5674ee800863346bc6f0d0d558aaa8, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: df5674ee800863346bc6f0d0d558aaa8, type: 3}
 --- !u!1001 &366684235
 PrefabInstance:
@@ -4516,6 +4674,47 @@ MeshCollider:
   m_Convex: 1
   m_CookingOptions: 30
   m_Mesh: {fileID: 4300000, guid: 8c906bcba2d8c044dba7fc65292fbe1c, type: 3}
+--- !u!1 &439039525 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1500024321721894, guid: 3c21bb32e8e806e4fa9258820dfebadf,
+    type: 3}
+  m_PrefabInstance: {fileID: 905599247}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &439039526
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 439039525}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 970f98161fba6de469e711ccd9c6d99a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  highlightOnMouseOver: 1
+  highlightColor: {r: 0.57, g: 0.57, b: 1, a: 1}
+  interactionDistance: 2
+  playSecondarySoundOnInteract: 0
+  showWithText: 0
+  audioLogText: <DEFAULT PICKUP SOUND AUDIO LOG TEXT>
+  soundPlaybackBehaviour: 0
+  soundToPlayOnInteract: {fileID: 0}
+  interactionString: Gold Field
+  canInteractWithWhileHoldingObject: 1
+--- !u!65 &439039527
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 439039525}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1, y: 1, z: 1}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &440638627
 GameObject:
   m_ObjectHideFlags: 0
@@ -5758,6 +5957,47 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 3587f44602ce32b45a0f4930835cdb44, type: 3}
+--- !u!1 &567199082 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1388657164994780, guid: dcf682d7e73d63e4db2f3cea8bdac239,
+    type: 3}
+  m_PrefabInstance: {fileID: 1643974457}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &567199083
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 567199082}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 970f98161fba6de469e711ccd9c6d99a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  highlightOnMouseOver: 1
+  highlightColor: {r: 0.57, g: 0.57, b: 1, a: 1}
+  interactionDistance: 2
+  playSecondarySoundOnInteract: 0
+  showWithText: 0
+  audioLogText: <DEFAULT PICKUP SOUND AUDIO LOG TEXT>
+  soundPlaybackBehaviour: 0
+  soundToPlayOnInteract: {fileID: 0}
+  interactionString: Grass Field
+  canInteractWithWhileHoldingObject: 1
+--- !u!65 &567199084
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 567199082}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1, y: 1, z: 1}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1001 &570026159
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -6154,6 +6394,47 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 589820959}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!1 &592471191 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1114219214756384, guid: 2fb98c264fc22154ca2c06b5921a1717,
+    type: 3}
+  m_PrefabInstance: {fileID: 1355397517}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &592471192
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 592471191}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 970f98161fba6de469e711ccd9c6d99a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  highlightOnMouseOver: 1
+  highlightColor: {r: 0.57, g: 0.57, b: 1, a: 1}
+  interactionDistance: 2
+  playSecondarySoundOnInteract: 0
+  showWithText: 0
+  audioLogText: <DEFAULT PICKUP SOUND AUDIO LOG TEXT>
+  soundPlaybackBehaviour: 0
+  soundToPlayOnInteract: {fileID: 0}
+  interactionString: Badlands Field
+  canInteractWithWhileHoldingObject: 1
+--- !u!65 &592471193
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 592471191}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1, y: 1, z: 1}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!4 &593413519 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 429512, guid: 712c8e363edc71a49a7c4ec35bc787c0,
@@ -6919,6 +7200,47 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 14691c451e07ff94cb94be3f44e72ab7, type: 3}
+--- !u!1 &642803137 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1513751033591328, guid: acb86a1738de1364cad1d7ac4f60f2ed,
+    type: 3}
+  m_PrefabInstance: {fileID: 1800186225}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &642803138
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 642803137}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 970f98161fba6de469e711ccd9c6d99a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  highlightOnMouseOver: 1
+  highlightColor: {r: 0.57, g: 0.57, b: 1, a: 1}
+  interactionDistance: 2
+  playSecondarySoundOnInteract: 0
+  showWithText: 0
+  audioLogText: <DEFAULT PICKUP SOUND AUDIO LOG TEXT>
+  soundPlaybackBehaviour: 0
+  soundToPlayOnInteract: {fileID: 0}
+  interactionString: Dessert Field
+  canInteractWithWhileHoldingObject: 1
+--- !u!65 &642803139
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 642803137}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1, y: 1, z: 1}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!4 &643140715 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 400000, guid: 02f05bd07b76e134b9ce1d218a95057a,
@@ -7239,6 +7561,11 @@ PrefabInstance:
         type: 3}
       propertyPath: inventoryItemType
       value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 5068912214020964621, guid: b2b050cd00c1c154ba4b96600ee0777c,
+        type: 3}
+      propertyPath: canBeHeld
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 5126580566877908729, guid: b2b050cd00c1c154ba4b96600ee0777c,
         type: 3}
@@ -7870,6 +8197,47 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 1981682303}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &738537294 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1500024321721894, guid: 3c21bb32e8e806e4fa9258820dfebadf,
+    type: 3}
+  m_PrefabInstance: {fileID: 965574842}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &738537295
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 738537294}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 970f98161fba6de469e711ccd9c6d99a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  highlightOnMouseOver: 1
+  highlightColor: {r: 0.57, g: 0.57, b: 1, a: 1}
+  interactionDistance: 2
+  playSecondarySoundOnInteract: 0
+  showWithText: 0
+  audioLogText: <DEFAULT PICKUP SOUND AUDIO LOG TEXT>
+  soundPlaybackBehaviour: 0
+  soundToPlayOnInteract: {fileID: 0}
+  interactionString: Gold Field
+  canInteractWithWhileHoldingObject: 1
+--- !u!65 &738537296
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 738537294}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1, y: 1, z: 1}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1001 &743272831
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -7960,6 +8328,47 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 743272831}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &750686418 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1388657164994780, guid: dcf682d7e73d63e4db2f3cea8bdac239,
+    type: 3}
+  m_PrefabInstance: {fileID: 1841554577}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &750686419
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 750686418}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 970f98161fba6de469e711ccd9c6d99a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  highlightOnMouseOver: 1
+  highlightColor: {r: 0.57, g: 0.57, b: 1, a: 1}
+  interactionDistance: 2
+  playSecondarySoundOnInteract: 0
+  showWithText: 0
+  audioLogText: <DEFAULT PICKUP SOUND AUDIO LOG TEXT>
+  soundPlaybackBehaviour: 0
+  soundToPlayOnInteract: {fileID: 0}
+  interactionString: Grass Field
+  canInteractWithWhileHoldingObject: 1
+--- !u!65 &750686420
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 750686418}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1, y: 1, z: 1}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!4 &753246029 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 400000, guid: abe0f3cb09164c048b3cba749efab044,
@@ -9002,6 +9411,47 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 2, y: 1.5, z: 0}
   m_Center: {x: 0, y: 0, z: -0.1}
+--- !u!1 &849679256 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1513751033591328, guid: acb86a1738de1364cad1d7ac4f60f2ed,
+    type: 3}
+  m_PrefabInstance: {fileID: 1932868530}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &849679257
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 849679256}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 970f98161fba6de469e711ccd9c6d99a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  highlightOnMouseOver: 1
+  highlightColor: {r: 0.57, g: 0.57, b: 1, a: 1}
+  interactionDistance: 2
+  playSecondarySoundOnInteract: 0
+  showWithText: 0
+  audioLogText: <DEFAULT PICKUP SOUND AUDIO LOG TEXT>
+  soundPlaybackBehaviour: 0
+  soundToPlayOnInteract: {fileID: 0}
+  interactionString: Dessert Field
+  canInteractWithWhileHoldingObject: 1
+--- !u!65 &849679258
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 849679256}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1, y: 1, z: 1}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1001 &853273879
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -9071,6 +9521,47 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 47af58fd905aee649a315f604914d38e, type: 3}
+--- !u!1 &855112575 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1942471274379096, guid: 393103ee2798fb34e9ea8dbd780cc4bc,
+    type: 3}
+  m_PrefabInstance: {fileID: 140282568}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &855112576
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 855112575}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 970f98161fba6de469e711ccd9c6d99a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  highlightOnMouseOver: 1
+  highlightColor: {r: 0.57, g: 0.57, b: 1, a: 1}
+  interactionDistance: 2
+  playSecondarySoundOnInteract: 0
+  showWithText: 0
+  audioLogText: <DEFAULT PICKUP SOUND AUDIO LOG TEXT>
+  soundPlaybackBehaviour: 0
+  soundToPlayOnInteract: {fileID: 0}
+  interactionString: Iron Field
+  canInteractWithWhileHoldingObject: 1
+--- !u!65 &855112577
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 855112575}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1, y: 1, z: 1}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!4 &855117689 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 4670670746894792, guid: df5674ee800863346bc6f0d0d558aaa8,
@@ -10851,7 +11342,6 @@ GameObject:
   - component: {fileID: 989469813}
   - component: {fileID: 989469816}
   - component: {fileID: 989469815}
-  - component: {fileID: 989469814}
   m_Layer: 0
   m_Name: sitting (2)
   m_TagString: Untagged
@@ -10875,22 +11365,6 @@ Transform:
   m_Father: {fileID: 1882313934}
   m_RootOrder: 8
   m_LocalEulerAnglesHint: {x: 0, y: 81.148, z: 0}
---- !u!114 &989469814
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 989469812}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 969ac1b935ccd904f8c932fc12d8a6d8, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  noteTitle: Player Docks
-  noteBody: Dockable objects can be used to create simple things like chairs, or
-    complex things like arcade machines. I imagine there are a million other things
-    to do with these, too.
 --- !u!114 &989469815
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -10954,6 +11428,47 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 1689146940}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &993132724 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1114219214756384, guid: 2fb98c264fc22154ca2c06b5921a1717,
+    type: 3}
+  m_PrefabInstance: {fileID: 589586032}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &993132725
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 993132724}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 970f98161fba6de469e711ccd9c6d99a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  highlightOnMouseOver: 1
+  highlightColor: {r: 0.57, g: 0.57, b: 1, a: 1}
+  interactionDistance: 2
+  playSecondarySoundOnInteract: 0
+  showWithText: 0
+  audioLogText: <DEFAULT PICKUP SOUND AUDIO LOG TEXT>
+  soundPlaybackBehaviour: 0
+  soundToPlayOnInteract: {fileID: 0}
+  interactionString: Badlands Field
+  canInteractWithWhileHoldingObject: 1
+--- !u!65 &993132726
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 993132724}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1, y: 1, z: 1}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &1005403572
 GameObject:
   m_ObjectHideFlags: 0
@@ -11176,7 +11691,6 @@ GameObject:
   - component: {fileID: 1013166228}
   - component: {fileID: 1013166231}
   - component: {fileID: 1013166230}
-  - component: {fileID: 1013166229}
   m_Layer: 0
   m_Name: sitting (1)
   m_TagString: Untagged
@@ -11200,22 +11714,6 @@ Transform:
   m_Father: {fileID: 1882313934}
   m_RootOrder: 7
   m_LocalEulerAnglesHint: {x: 0, y: 81.148, z: 0}
---- !u!114 &1013166229
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1013166227}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 969ac1b935ccd904f8c932fc12d8a6d8, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  noteTitle: Player Docks
-  noteBody: Dockable objects can be used to create simple things like chairs, or
-    complex things like arcade machines. I imagine there are a million other things
-    to do with these, too.
 --- !u!114 &1013166230
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -12067,6 +12565,47 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 54ebdfa7e7eee87448b28a289525dce5, type: 3}
+--- !u!1 &1102910081 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1500024321721894, guid: 3c21bb32e8e806e4fa9258820dfebadf,
+    type: 3}
+  m_PrefabInstance: {fileID: 116618419}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1102910082
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1102910081}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 970f98161fba6de469e711ccd9c6d99a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  highlightOnMouseOver: 1
+  highlightColor: {r: 0.57, g: 0.57, b: 1, a: 1}
+  interactionDistance: 2
+  playSecondarySoundOnInteract: 0
+  showWithText: 0
+  audioLogText: <DEFAULT PICKUP SOUND AUDIO LOG TEXT>
+  soundPlaybackBehaviour: 0
+  soundToPlayOnInteract: {fileID: 0}
+  interactionString: Gold Field
+  canInteractWithWhileHoldingObject: 1
+--- !u!65 &1102910083
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1102910081}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1, y: 1, z: 1}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &1106359762
 GameObject:
   m_ObjectHideFlags: 0
@@ -12317,6 +12856,47 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 0a73716ae73e9a4468c96965d55b0bb2, type: 3}
+--- !u!1 &1126295622 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1500024321721894, guid: 3c21bb32e8e806e4fa9258820dfebadf,
+    type: 3}
+  m_PrefabInstance: {fileID: 1272201852}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1126295623
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1126295622}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 970f98161fba6de469e711ccd9c6d99a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  highlightOnMouseOver: 1
+  highlightColor: {r: 0.57, g: 0.57, b: 1, a: 1}
+  interactionDistance: 2
+  playSecondarySoundOnInteract: 0
+  showWithText: 0
+  audioLogText: <DEFAULT PICKUP SOUND AUDIO LOG TEXT>
+  soundPlaybackBehaviour: 0
+  soundToPlayOnInteract: {fileID: 0}
+  interactionString: Gold Field
+  canInteractWithWhileHoldingObject: 1
+--- !u!65 &1126295624
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1126295622}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1, y: 1, z: 1}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1001 &1134613088
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -12439,12 +13019,13 @@ MonoBehaviour:
   inventoryQuantity: 1
   inventoryGetSound: {fileID: 0}
   pickupPermitted: 1
-  canBeHeld: 0
+  canBeHeld: 1
   canBeDropped: 0
   canBeConsumed: 0
-  itemName: Greenfield
+  itemName: 'Polaroid: Grassfield'
   itemImage: {fileID: 21300000, guid: f3327688a1d11884a9fe52972896a0d3, type: 3}
-  itemDescription: A photography of a beutiful green scenery.
+  itemDescription: 'Note: The best Time I ever had! Young, full of life and free.
+    My first trip into the mountains. It was astonishing.'
   stackable: 0
 --- !u!1001 &1139432148
 PrefabInstance:
@@ -12634,6 +13215,47 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: f5738bfb06b8b664f8165c74ec50881a, type: 3}
+--- !u!1 &1152839050 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1500024321721894, guid: 3c21bb32e8e806e4fa9258820dfebadf,
+    type: 3}
+  m_PrefabInstance: {fileID: 1665912183}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1152839051
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1152839050}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 970f98161fba6de469e711ccd9c6d99a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  highlightOnMouseOver: 1
+  highlightColor: {r: 0.57, g: 0.57, b: 1, a: 1}
+  interactionDistance: 2
+  playSecondarySoundOnInteract: 0
+  showWithText: 0
+  audioLogText: <DEFAULT PICKUP SOUND AUDIO LOG TEXT>
+  soundPlaybackBehaviour: 0
+  soundToPlayOnInteract: {fileID: 0}
+  interactionString: Gold Field
+  canInteractWithWhileHoldingObject: 1
+--- !u!65 &1152839052
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1152839050}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1, y: 1, z: 1}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1001 &1154110251
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -14745,6 +15367,47 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 1e0abc70bc95bf3498f95421f2251afa, type: 3}
+--- !u!1 &1301218554 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1994085010386688, guid: 408ff2acb0a41b24dbed2426e39d1530,
+    type: 3}
+  m_PrefabInstance: {fileID: 79186266}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1301218555
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1301218554}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 970f98161fba6de469e711ccd9c6d99a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  highlightOnMouseOver: 1
+  highlightColor: {r: 0.57, g: 0.57, b: 1, a: 1}
+  interactionDistance: 2
+  playSecondarySoundOnInteract: 0
+  showWithText: 0
+  audioLogText: <DEFAULT PICKUP SOUND AUDIO LOG TEXT>
+  soundPlaybackBehaviour: 0
+  soundToPlayOnInteract: {fileID: 0}
+  interactionString: Ore Field
+  canInteractWithWhileHoldingObject: 1
+--- !u!65 &1301218556
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1301218554}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1, y: 1, z: 1}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1001 &1303521527
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -15173,15 +15836,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 449580, guid: 33c5135306dba104e8150c9f04ed29f2, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 5.38
+      value: 5.343
       objectReference: {fileID: 0}
     - target: {fileID: 449580, guid: 33c5135306dba104e8150c9f04ed29f2, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 1.176
+      value: 1.353
       objectReference: {fileID: 0}
     - target: {fileID: 449580, guid: 33c5135306dba104e8150c9f04ed29f2, type: 3}
       propertyPath: m_LocalPosition.z
-      value: -4
+      value: -3.809
       objectReference: {fileID: 0}
     - target: {fileID: 449580, guid: 33c5135306dba104e8150c9f04ed29f2, type: 3}
       propertyPath: m_LocalRotation.x
@@ -15217,15 +15880,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 449580, guid: 33c5135306dba104e8150c9f04ed29f2, type: 3}
       propertyPath: m_LocalScale.y
-      value: 1.3
+      value: 1.4
       objectReference: {fileID: 0}
     - target: {fileID: 449580, guid: 33c5135306dba104e8150c9f04ed29f2, type: 3}
       propertyPath: m_LocalScale.x
-      value: 1.3
+      value: 1.4
       objectReference: {fileID: 0}
     - target: {fileID: 449580, guid: 33c5135306dba104e8150c9f04ed29f2, type: 3}
       propertyPath: m_LocalScale.z
-      value: 1.3
+      value: 1.4
       objectReference: {fileID: 0}
     - target: {fileID: 2049600, guid: 33c5135306dba104e8150c9f04ed29f2, type: 3}
       propertyPath: m_ClearFlags
@@ -15310,6 +15973,47 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: b8c3087888fc448acb63e643fea215d3, type: 3}
+--- !u!1 &1343058313 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1500024321721894, guid: 3c21bb32e8e806e4fa9258820dfebadf,
+    type: 3}
+  m_PrefabInstance: {fileID: 1282148774}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1343058314
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1343058313}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 970f98161fba6de469e711ccd9c6d99a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  highlightOnMouseOver: 1
+  highlightColor: {r: 0.57, g: 0.57, b: 1, a: 1}
+  interactionDistance: 2
+  playSecondarySoundOnInteract: 0
+  showWithText: 0
+  audioLogText: <DEFAULT PICKUP SOUND AUDIO LOG TEXT>
+  soundPlaybackBehaviour: 0
+  soundToPlayOnInteract: {fileID: 0}
+  interactionString: Gold Field
+  canInteractWithWhileHoldingObject: 1
+--- !u!65 &1343058315
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1343058313}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1, y: 1, z: 1}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!4 &1345568404 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 400000, guid: abe0f3cb09164c048b3cba749efab044,
@@ -15549,6 +16253,47 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 760919898}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &1368230225 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1500024321721894, guid: 3c21bb32e8e806e4fa9258820dfebadf,
+    type: 3}
+  m_PrefabInstance: {fileID: 26866083}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1368230226
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1368230225}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 970f98161fba6de469e711ccd9c6d99a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  highlightOnMouseOver: 1
+  highlightColor: {r: 0.57, g: 0.57, b: 1, a: 1}
+  interactionDistance: 2
+  playSecondarySoundOnInteract: 0
+  showWithText: 0
+  audioLogText: <DEFAULT PICKUP SOUND AUDIO LOG TEXT>
+  soundPlaybackBehaviour: 0
+  soundToPlayOnInteract: {fileID: 0}
+  interactionString: Gold Field
+  canInteractWithWhileHoldingObject: 1
+--- !u!65 &1368230227
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1368230225}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1, y: 1, z: 1}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1001 &1369499534
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -16273,29 +17018,14 @@ MonoBehaviour:
   inventoryQuantity: 1
   inventoryGetSound: {fileID: 0}
   pickupPermitted: 1
-  canBeHeld: 0
+  canBeHeld: 1
   canBeDropped: 0
   canBeConsumed: 0
   itemName: 'Polaroid: Badlands'
   itemImage: {fileID: 21300000, guid: 0ee19c3b2e4078d41b463996abbcee64, type: 3}
-  itemDescription: A photography of the badlands.
+  itemDescription: 'Note: Once I went to the badlands. Though it was really beautiful
+    it made me feel lonely and I went home exhausted.'
   stackable: 0
---- !u!114 &1432948594
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1432948592}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 969ac1b935ccd904f8c932fc12d8a6d8, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  noteTitle: Polaroids
-  noteBody: I found some polaroid photos from trips. Something about their notes
-    reminds me about something else I've seen in this room. Could it be that there
-    is a connection?
 --- !u!1001 &1440319422
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -16453,7 +17183,6 @@ GameObject:
   - component: {fileID: 1445850894}
   - component: {fileID: 1445850897}
   - component: {fileID: 1445850896}
-  - component: {fileID: 1445850895}
   m_Layer: 0
   m_Name: sitting (1)
   m_TagString: Untagged
@@ -16477,22 +17206,6 @@ Transform:
   m_Father: {fileID: 531916064}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: -25.034, z: 0}
---- !u!114 &1445850895
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1445850893}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 969ac1b935ccd904f8c932fc12d8a6d8, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  noteTitle: Player Docks
-  noteBody: Dockable objects can be used to create simple things like chairs, or
-    complex things like arcade machines. I imagine there are a million other things
-    to do with these, too.
 --- !u!114 &1445850896
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -17849,6 +18562,11 @@ PrefabInstance:
       propertyPath: itemName
       value: Another Key?
       objectReference: {fileID: 0}
+    - target: {fileID: 5068912214020964621, guid: b2b050cd00c1c154ba4b96600ee0777c,
+        type: 3}
+      propertyPath: canBeHeld
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 5120407348770392531, guid: b2b050cd00c1c154ba4b96600ee0777c,
         type: 3}
       propertyPath: m_UseGravity
@@ -18251,12 +18969,13 @@ MonoBehaviour:
   inventoryQuantity: 1
   inventoryGetSound: {fileID: 0}
   pickupPermitted: 1
-  canBeHeld: 0
+  canBeHeld: 1
   canBeDropped: 0
   canBeConsumed: 0
-  itemName: 'Polaroid: storm'
+  itemName: 'Polaroid: Storm'
   itemImage: {fileID: 21300000, guid: 3688cfb04fe483744b1f53634ed486ab, type: 3}
-  itemDescription: A photography of a bad storm.
+  itemDescription: 'Note: On one of my favourit trips, before even being abble to
+    start, a big storm hit. Everything went dark like ore.'
   stackable: 0
 --- !u!1 &1621952644
 GameObject:
@@ -19952,6 +20671,47 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 54ebdfa7e7eee87448b28a289525dce5, type: 3}
+--- !u!1 &1739750528 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1942471274379096, guid: 393103ee2798fb34e9ea8dbd780cc4bc,
+    type: 3}
+  m_PrefabInstance: {fileID: 1456207777}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1739750529
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1739750528}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 970f98161fba6de469e711ccd9c6d99a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  highlightOnMouseOver: 1
+  highlightColor: {r: 0.57, g: 0.57, b: 1, a: 1}
+  interactionDistance: 2
+  playSecondarySoundOnInteract: 0
+  showWithText: 0
+  audioLogText: <DEFAULT PICKUP SOUND AUDIO LOG TEXT>
+  soundPlaybackBehaviour: 0
+  soundToPlayOnInteract: {fileID: 0}
+  interactionString: Iron Field
+  canInteractWithWhileHoldingObject: 1
+--- !u!65 &1739750530
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1739750528}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1, y: 1, z: 1}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!4 &1739952993 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 1856761047335164475, guid: a5e434124f3e5644fbd5abdcd7f74ca4,
@@ -20267,6 +21027,47 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 1756859076}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &1763463442 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1991328963452212, guid: dc899da57486f4c4fa53c3bb800568d6,
+    type: 3}
+  m_PrefabInstance: {fileID: 121640168}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1763463443
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1763463442}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 970f98161fba6de469e711ccd9c6d99a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  highlightOnMouseOver: 1
+  highlightColor: {r: 0.57, g: 0.57, b: 1, a: 1}
+  interactionDistance: 2
+  playSecondarySoundOnInteract: 0
+  showWithText: 0
+  audioLogText: <DEFAULT PICKUP SOUND AUDIO LOG TEXT>
+  soundPlaybackBehaviour: 0
+  soundToPlayOnInteract: {fileID: 0}
+  interactionString: Lake Field
+  canInteractWithWhileHoldingObject: 1
+--- !u!65 &1763463444
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1763463442}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1, y: 1, z: 1}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!4 &1766110243 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 400002, guid: dc7b89b3ec6535d439f8c2972c788893,
@@ -20971,6 +21772,47 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 1807967237}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &1808237050 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1388657164994780, guid: dcf682d7e73d63e4db2f3cea8bdac239,
+    type: 3}
+  m_PrefabInstance: {fileID: 2113117111}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1808237051
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1808237050}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 970f98161fba6de469e711ccd9c6d99a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  highlightOnMouseOver: 1
+  highlightColor: {r: 0.57, g: 0.57, b: 1, a: 1}
+  interactionDistance: 2
+  playSecondarySoundOnInteract: 0
+  showWithText: 0
+  audioLogText: <DEFAULT PICKUP SOUND AUDIO LOG TEXT>
+  soundPlaybackBehaviour: 0
+  soundToPlayOnInteract: {fileID: 0}
+  interactionString: Grass Field
+  canInteractWithWhileHoldingObject: 1
+--- !u!65 &1808237052
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1808237050}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1, y: 1, z: 1}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &1808622396 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 5172884584165512449, guid: b2b050cd00c1c154ba4b96600ee0777c,
@@ -21010,6 +21852,88 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 0.20886749, y: 0.075895436, z: 0.0069373352}
   m_Center: {x: -0.0022669733, y: 0.004836601, z: 0.00000091129914}
+--- !u!1 &1809830566 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1411991481385686, guid: d4c13e0a31c558d44a8f388a79193a00,
+    type: 3}
+  m_PrefabInstance: {fileID: 1139432148}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1809830567
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1809830566}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 970f98161fba6de469e711ccd9c6d99a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  highlightOnMouseOver: 1
+  highlightColor: {r: 0.57, g: 0.57, b: 1, a: 1}
+  interactionDistance: 2
+  playSecondarySoundOnInteract: 0
+  showWithText: 0
+  audioLogText: <DEFAULT PICKUP SOUND AUDIO LOG TEXT>
+  soundPlaybackBehaviour: 0
+  soundToPlayOnInteract: {fileID: 0}
+  interactionString: Clay Field
+  canInteractWithWhileHoldingObject: 1
+--- !u!65 &1809830568
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1809830566}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1, y: 1, z: 1}
+  m_Center: {x: 0, y: 0, z: 0}
+--- !u!1 &1810233026 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1991328963452212, guid: dc899da57486f4c4fa53c3bb800568d6,
+    type: 3}
+  m_PrefabInstance: {fileID: 385959927}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1810233027
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1810233026}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 970f98161fba6de469e711ccd9c6d99a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  highlightOnMouseOver: 1
+  highlightColor: {r: 0.57, g: 0.57, b: 1, a: 1}
+  interactionDistance: 2
+  playSecondarySoundOnInteract: 0
+  showWithText: 0
+  audioLogText: <DEFAULT PICKUP SOUND AUDIO LOG TEXT>
+  soundPlaybackBehaviour: 0
+  soundToPlayOnInteract: {fileID: 0}
+  interactionString: Lake Field
+  canInteractWithWhileHoldingObject: 1
+--- !u!65 &1810233028
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1810233026}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1, y: 1, z: 1}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!4 &1812916779 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 4427838586978228, guid: 4cd5704b5840fa140a83ae2117a3f5f9,
@@ -22708,7 +23632,7 @@ BoxCollider:
   m_GameObject: {fileID: 1938919953}
   m_Material: {fileID: 0}
   m_IsTrigger: 0
-  m_Enabled: 1
+  m_Enabled: 0
   serializedVersion: 2
   m_Size: {x: 1, y: 1, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
@@ -23425,6 +24349,47 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 408ff2acb0a41b24dbed2426e39d1530, type: 3}
+--- !u!1 &1988614228 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1994085010386688, guid: 408ff2acb0a41b24dbed2426e39d1530,
+    type: 3}
+  m_PrefabInstance: {fileID: 1983365542}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1988614229
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1988614228}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 970f98161fba6de469e711ccd9c6d99a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  highlightOnMouseOver: 1
+  highlightColor: {r: 0.57, g: 0.57, b: 1, a: 1}
+  interactionDistance: 2
+  playSecondarySoundOnInteract: 0
+  showWithText: 0
+  audioLogText: <DEFAULT PICKUP SOUND AUDIO LOG TEXT>
+  soundPlaybackBehaviour: 0
+  soundToPlayOnInteract: {fileID: 0}
+  interactionString: Ore Field
+  canInteractWithWhileHoldingObject: 1
+--- !u!65 &1988614230
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1988614228}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1, y: 1, z: 1}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1001 &1988726520
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -23845,13 +24810,30 @@ MonoBehaviour:
   inventoryQuantity: 1
   inventoryGetSound: {fileID: 0}
   pickupPermitted: 1
-  canBeHeld: 0
+  canBeHeld: 1
   canBeDropped: 0
   canBeConsumed: 0
   itemName: 'Polaroid: Sun'
   itemImage: {fileID: 21300000, guid: d0fe66d0eb7de7a4aa45b05ba5f07dc9, type: 3}
-  itemDescription: A photography of the sun reflecting in a glass and the sea.
+  itemDescription: 'Note: On my trips around the world I always loved to watch the
+    sun go down. It was shimmering like gold.'
   stackable: 0
+--- !u!114 &2013923701
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2013923699}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 969ac1b935ccd904f8c932fc12d8a6d8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  noteTitle: Polaroids
+  noteBody: I found some polaroid photos from trips. Something about their notes
+    reminds me about something else I've seen in this room. Could it be that there
+    is a connection?
 --- !u!1001 &2014607734
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -25020,7 +26002,7 @@ Transform:
   - {fileID: 2130884753}
   - {fileID: 856456369}
   - {fileID: 467738883}
-  - {fileID: 297749143}
+  - {fileID: 26866084}
   m_Father: {fileID: 1304741791}
   m_RootOrder: 9
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -25087,6 +26069,47 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 114849813}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &2126530410 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1994085010386688, guid: 408ff2acb0a41b24dbed2426e39d1530,
+    type: 3}
+  m_PrefabInstance: {fileID: 1909259724}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &2126530411
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2126530410}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 970f98161fba6de469e711ccd9c6d99a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  highlightOnMouseOver: 1
+  highlightColor: {r: 0.57, g: 0.57, b: 1, a: 1}
+  interactionDistance: 2
+  playSecondarySoundOnInteract: 0
+  showWithText: 0
+  audioLogText: <DEFAULT PICKUP SOUND AUDIO LOG TEXT>
+  soundPlaybackBehaviour: 0
+  soundToPlayOnInteract: {fileID: 0}
+  interactionString: Ore Field
+  canInteractWithWhileHoldingObject: 1
+--- !u!65 &2126530412
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2126530410}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1, y: 1, z: 1}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &2129512786 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 1869859796194180, guid: 979c7ab3fadc43643bbb4869412b050f,
@@ -28517,6 +29540,11 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 21300000, guid: 18a64df7905d7af4f887b5003044374a,
         type: 3}
+    - target: {fileID: 3784461790731175666, guid: 18685657ae608f04bb4f215d20098bcb,
+        type: 3}
+      propertyPath: canBeDropped
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 3789132044130187299, guid: 18685657ae608f04bb4f215d20098bcb,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -28745,6 +29773,11 @@ PrefabInstance:
       propertyPath: requiredToBeInHand
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 4358894573681491615, guid: 034edb49276200a4d9c18f031bc1a15b,
+        type: 3}
+      propertyPath: requiredItemType
+      value: 12
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 034edb49276200a4d9c18f031bc1a15b, type: 3}
 --- !u!1001 &5620855479868874022
@@ -28765,6 +29798,11 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 21300000, guid: b46bf8341b694b34ca2616e82f270c33,
         type: 3}
+    - target: {fileID: 4719346759313099861, guid: 3188cfeda67c38b4fb0fb7cb8884a819,
+        type: 3}
+      propertyPath: canBeDropped
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 5621871924029664060, guid: 3188cfeda67c38b4fb0fb7cb8884a819,
         type: 3}
       propertyPath: m_Name
@@ -28832,22 +29870,6 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 3188cfeda67c38b4fb0fb7cb8884a819, type: 3}
---- !u!114 &5665318826234675463
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5696633333598777463}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 969ac1b935ccd904f8c932fc12d8a6d8, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  noteTitle: Player Docks
-  noteBody: Dockable objects can be used to create simple things like chairs, or
-    complex things like arcade machines. I imagine there are a million other things
-    to do with these, too.
 --- !u!114 &5665437966371001547
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -28949,7 +29971,6 @@ GameObject:
   - component: {fileID: 5699552847663060077}
   - component: {fileID: 5759966421986810645}
   - component: {fileID: 5665437966371001547}
-  - component: {fileID: 5665318826234675463}
   m_Layer: 0
   m_Name: sitting
   m_TagString: Untagged
