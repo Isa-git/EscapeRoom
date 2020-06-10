@@ -2690,7 +2690,7 @@ PrefabInstance:
         type: 3}
       propertyPath: diaryAudio
       value: 
-      objectReference: {fileID: 8300000, guid: 9c5deb63e1742aa4aadb0c203737dd83, type: 3}
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 0e0f5d0f4d2e8474a8d618c9945a096f, type: 3}
 --- !u!4 &146371109 stripped
@@ -3267,7 +3267,7 @@ PrefabInstance:
         type: 3}
       propertyPath: diaryAudio
       value: 
-      objectReference: {fileID: 8300000, guid: 9c5deb63e1742aa4aadb0c203737dd83, type: 3}
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 0e0f5d0f4d2e8474a8d618c9945a096f, type: 3}
 --- !u!1001 &185051150
@@ -4917,7 +4917,7 @@ PrefabInstance:
         type: 3}
       propertyPath: diaryAudio
       value: 
-      objectReference: {fileID: 8300000, guid: 9c5deb63e1742aa4aadb0c203737dd83, type: 3}
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 0e0f5d0f4d2e8474a8d618c9945a096f, type: 3}
 --- !u!1 &323126250
@@ -5798,7 +5798,7 @@ PrefabInstance:
         type: 3}
       propertyPath: diaryAudio
       value: 
-      objectReference: {fileID: 8300000, guid: 9c5deb63e1742aa4aadb0c203737dd83, type: 3}
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 0e0f5d0f4d2e8474a8d618c9945a096f, type: 3}
 --- !u!4 &425055491 stripped
@@ -6588,7 +6588,7 @@ PrefabInstance:
         type: 3}
       propertyPath: diaryAudio
       value: 
-      objectReference: {fileID: 8300000, guid: 9c5deb63e1742aa4aadb0c203737dd83, type: 3}
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 0e0f5d0f4d2e8474a8d618c9945a096f, type: 3}
 --- !u!4 &485845251 stripped
@@ -8977,7 +8977,7 @@ PrefabInstance:
         type: 3}
       propertyPath: diaryAudio
       value: 
-      objectReference: {fileID: 8300000, guid: 9c5deb63e1742aa4aadb0c203737dd83, type: 3}
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 0e0f5d0f4d2e8474a8d618c9945a096f, type: 3}
 --- !u!1 &642803137 stripped
@@ -9207,7 +9207,7 @@ PrefabInstance:
         type: 3}
       propertyPath: diaryAudio
       value: 
-      objectReference: {fileID: 8300000, guid: 9c5deb63e1742aa4aadb0c203737dd83, type: 3}
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 0e0f5d0f4d2e8474a8d618c9945a096f, type: 3}
 --- !u!1 &662553848
@@ -18460,7 +18460,7 @@ PrefabInstance:
         type: 3}
       propertyPath: diaryAudio
       value: 
-      objectReference: {fileID: 8300000, guid: 9c5deb63e1742aa4aadb0c203737dd83, type: 3}
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 0e0f5d0f4d2e8474a8d618c9945a096f, type: 3}
 --- !u!4 &1322839725 stripped
@@ -20530,8 +20530,8 @@ MonoBehaviour:
   canBeConsumed: 0
   itemName: 'Polaroid: Badlands'
   itemImage: {fileID: 21300000, guid: 0ee19c3b2e4078d41b463996abbcee64, type: 3}
-  itemDescription: 'Note: Once I went to the badlands. Though it was really beautiful
-    it made me feel lonely and I went home exhausted.'
+  itemDescription: 'Note: Once I went to the badlands. Though it was really beautiful,
+    the 3 day long trip made me feel lonely and I went home exhausted.'
   stackable: 0
 --- !u!1001 &1440319422
 PrefabInstance:
@@ -22521,8 +22521,9 @@ MonoBehaviour:
   canBeConsumed: 0
   itemName: 'Polaroid: Storm'
   itemImage: {fileID: 21300000, guid: 3688cfb04fe483744b1f53634ed486ab, type: 3}
-  itemDescription: "Note: This should have been my best trip. But \rbad luck had
-    it a storm struck and it was\rcanceled. Everything went dark like ore."
+  itemDescription: "Note: This should have been the best trip for me and my 4 friends,
+    but \rbad luck had it. A storm struck and it was \rcanceled. Everything went
+    dark like ore."
   stackable: 0
 --- !u!1 &1621952644
 GameObject:
@@ -25127,7 +25128,7 @@ PrefabInstance:
         type: 3}
       propertyPath: diaryAudio
       value: 
-      objectReference: {fileID: 8300000, guid: 9c5deb63e1742aa4aadb0c203737dd83, type: 3}
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 0e0f5d0f4d2e8474a8d618c9945a096f, type: 3}
 --- !u!1 &1763463442 stripped
@@ -30282,6 +30283,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: dresser
+      objectReference: {fileID: 0}
+    - target: {fileID: 8235230626057527192, guid: 88f6b3c03487a4243a13c98bf03f57e7,
+        type: 3}
+      propertyPath: itemName
+      value: Drawer Note
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 88f6b3c03487a4243a13c98bf03f57e7, type: 3}
